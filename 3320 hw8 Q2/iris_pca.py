@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 df =  pd.read_csv('iris.data', sep=",", header=None, names=['A', 'B', 'C', 'D', 'E'])
+species = df['E']
 df = df.drop(columns=['E'], axis=1)
 # (a)(b) download and preprocess the data by subtracting the mean and dividing by the sd of each attribute value
 pc_df = (df - df.mean())/df.std()
@@ -39,10 +40,13 @@ projection = 0
 for i in range (0, 4):
     projection = projection + y[i].dot(phi[i].transpose())
 projection.columns = name_list
+projection['E'] = species
+print(projection)
 
 fig = px.scatter_matrix(
     projection,
     dimensions=name_list,
+    color ='E',
 )
 fig.update_traces(diagonal_visible=False)
 fig.show()
