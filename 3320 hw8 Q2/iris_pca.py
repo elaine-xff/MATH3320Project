@@ -34,14 +34,14 @@ for i in range (0, 4):
     y.append(pc_df.dot(phi[i]))
     if i == 2 or i == 3:
         y[i] = y[i].mean() * pd.DataFrame(np.ones((pc_df.shape[0], 1)))
-
+print('here')
+print(y)
 name_list = ['A', 'B', 'C', 'D']
 projection = 0
 for i in range (0, 4):
     projection = projection + y[i].dot(phi[i].transpose())
 projection.columns = name_list
 projection['E'] = species
-print(projection)
 
 fig = px.scatter_matrix(
     projection,
@@ -50,3 +50,11 @@ fig = px.scatter_matrix(
 )
 fig.update_traces(diagonal_visible=False)
 fig.show()
+
+# (e) another moew efficient method
+# vec = pd.DataFrame(v).transpose()
+# y_i = np.matmul(pc_df, vec)
+# y_i[2] = y_i[2].mean()
+# y_i[3] = y_i[3].mean()
+
+# projection = np.matmul(y_i, vec)
