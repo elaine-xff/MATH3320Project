@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.21)  10 NOV 2021 03:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.21)  10 NOV 2021 03:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -385,66 +385,12 @@ l.173     \end{split}
                      
 I treat `x_1_2' essentially like `x_1{}_2'.
 
-/Users/zhangyifan/Documents/MATH3320Project/report/report.tex:173: Missing } inserted.
-<inserted text> 
-                }
-l.173     \end{split}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/zhangyifan/Documents/MATH3320Project/report/report.tex:173: Extra \right.
-<argument> ...sum \limits _{n}v_{in}v_{jn}\right )
-                                                  \\ &= \sum \limits _{i=k+1...
-l.173     \end{split}
-                     
-I'm ignoring a \right that had no matching \left.
-
-/Users/zhangyifan/Documents/MATH3320Project/report/report.tex:173: Missing { inserted.
-<inserted text> 
-                {
-l.173     \end{split}
-                     
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
 /Users/zhangyifan/Documents/MATH3320Project/report/report.tex:173: Double subscript.
 <argument> ...op j\neq i}^{r}\sigma _i\sigma _j^u_
                                                   {im}v_{in}u_{jm}v_{jn}\rig...
 l.173     \end{split}
                      
 I treat `x_1_2' essentially like `x_1{}_2'.
-
-/Users/zhangyifan/Documents/MATH3320Project/report/report.tex:173: Missing } inserted.
-<inserted text> 
-                }
-l.173     \end{split}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/zhangyifan/Documents/MATH3320Project/report/report.tex:173: Extra \right.
-<argument> ...sum \limits _{n}v_{in}v_{jn}\right )
-                                                  \\ &= \sum \limits _{i=k+1...
-l.173     \end{split}
-                     
-I'm ignoring a \right that had no matching \left.
-
-/Users/zhangyifan/Documents/MATH3320Project/report/report.tex:173: Missing { inserted.
-<inserted text> 
-                {
-l.173     \end{split}
-                     
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
 
 [7] [8] (/Users/zhangyifan/Documents/MATH3320Project/report/report.aux)
 
