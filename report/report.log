@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.19)  9 NOV 2021 23:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.19)  9 NOV 2021 23:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -341,79 +341,79 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <dora_10.png, id=23, 433.62pt x 289.08pt>
 File: dora_10.png Graphic file (type png)
 <use dora_10.png>
-Package pdftex.def Info: dora_10.png  used on input line 93.
+Package pdftex.def Info: dora_10.png  used on input line 92.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <dora_40.png, id=25, 433.62pt x 289.08pt>
 File: dora_40.png Graphic file (type png)
 <use dora_40.png>
-Package pdftex.def Info: dora_40.png  used on input line 97.
+Package pdftex.def Info: dora_40.png  used on input line 96.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 
-Overfull \hbox (19.58313pt too wide) in paragraph at lines 93--97
+Overfull \hbox (19.58313pt too wide) in paragraph at lines 92--96
  [][][] 
  []
 
 <dora_100.png, id=26, 433.62pt x 289.08pt>
 File: dora_100.png Graphic file (type png)
 <use dora_100.png>
-Package pdftex.def Info: dora_100.png  used on input line 101.
+Package pdftex.def Info: dora_100.png  used on input line 100.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <dora_orig.png, id=27, 433.62pt x 289.08pt>
 File: dora_orig.png Graphic file (type png)
 <use dora_orig.png>
-Package pdftex.def Info: dora_orig.png  used on input line 105.
+Package pdftex.def Info: dora_orig.png  used on input line 104.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 
-Overfull \hbox (15.6665pt too wide) in paragraph at lines 101--106
+Overfull \hbox (15.6665pt too wide) in paragraph at lines 100--105
  [][][] 
  []
 
 <SVD_code.png, id=28, 905.3825pt x 473.77pt>
 File: SVD_code.png Graphic file (type png)
 <use SVD_code.png>
-Package pdftex.def Info: SVD_code.png  used on input line 115.
+Package pdftex.def Info: SVD_code.png  used on input line 114.
 (pdftex.def)             Requested size: 390.0pt x 204.07858pt.
 <dora_auto_{k}.png, id=29, 433.62pt x 289.08pt>
 File: dora_auto_{k}.png Graphic file (type png)
 <use dora_auto_{k}.png>
-Package pdftex.def Info: dora_auto_{k}.png  used on input line 124.
+Package pdftex.def Info: dora_auto_{k}.png  used on input line 123.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 File: dora_orig.png Graphic file (type png)
 <use dora_orig.png>
-Package pdftex.def Info: dora_orig.png  used on input line 128.
+Package pdftex.def Info: dora_orig.png  used on input line 127.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 
-Overfull \hbox (15.6665pt too wide) in paragraph at lines 124--129
+Overfull \hbox (15.6665pt too wide) in paragraph at lines 123--128
  [][][] 
  []
 
 <lenna_20.png, id=30, 433.62pt x 289.08pt>
 File: lenna_20.png Graphic file (type png)
 <use lenna_20.png>
-Package pdftex.def Info: lenna_20.png  used on input line 139.
+Package pdftex.def Info: lenna_20.png  used on input line 138.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <lenna_50.png, id=31, 433.62pt x 289.08pt>
 File: lenna_50.png Graphic file (type png)
 <use lenna_50.png>
-Package pdftex.def Info: lenna_50.png  used on input line 143.
+Package pdftex.def Info: lenna_50.png  used on input line 142.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 
-Overfull \hbox (15.6665pt too wide) in paragraph at lines 139--143
+Overfull \hbox (15.6665pt too wide) in paragraph at lines 138--142
  [][][] 
  []
 
 <lenna_auto_{k}.png, id=32, 433.62pt x 289.08pt>
 File: lenna_auto_{k}.png Graphic file (type png)
 <use lenna_auto_{k}.png>
-Package pdftex.def Info: lenna_auto_{k}.png  used on input line 147.
+Package pdftex.def Info: lenna_auto_{k}.png  used on input line 146.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <lenna_orig.png, id=33, 433.62pt x 289.08pt>
 File: lenna_orig.png Graphic file (type png)
 <use lenna_orig.png>
-Package pdftex.def Info: lenna_orig.png  used on input line 151.
+Package pdftex.def Info: lenna_orig.png  used on input line 150.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 
-Overfull \hbox (15.6665pt too wide) in paragraph at lines 147--152
+Overfull \hbox (15.6665pt too wide) in paragraph at lines 146--151
  [][][] 
  []
 
@@ -425,13 +425,13 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  6085 strings out of 478994
  100048 string characters out of 5858184
- 404439 words of memory out of 5000000
+ 405439 words of memory out of 5000000
  23489 multiletter control sequences out of 15000+600000
  412193 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,10n,133p,1073b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 85i,10n,133p,1073b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf (8 pages, 708154 bytes).
+Output written on /Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf (8 pages, 708100 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
