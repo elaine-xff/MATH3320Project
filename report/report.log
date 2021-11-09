@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.19)  9 NOV 2021 23:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.19)  9 NOV 2021 23:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -368,11 +368,11 @@ Overfull \hbox (15.6665pt too wide) in paragraph at lines 100--105
  [][][] 
  []
 
-<SVD_code.png, id=28, 905.3825pt x 473.77pt>
+<SVD_code.png, id=28, 782.925pt x 413.545pt>
 File: SVD_code.png Graphic file (type png)
 <use SVD_code.png>
 Package pdftex.def Info: SVD_code.png  used on input line 114.
-(pdftex.def)             Requested size: 390.0pt x 204.07858pt.
+(pdftex.def)             Requested size: 390.0pt x 206.00214pt.
 <dora_auto_{k}.png, id=29, 433.62pt x 289.08pt>
 File: dora_auto_{k}.png Graphic file (type png)
 <use dora_auto_{k}.png>
@@ -431,7 +431,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  85i,10n,133p,1073b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf (8 pages, 708100 bytes).
+Output written on /Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf (8 pages, 697061 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
