@@ -351,8 +351,6 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/fmtcount/fc-english.def
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/fmtcount/fc-english.def
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/fmtcount/fc-english.def
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/fmtcount/fc-english.def
-OUTPUT /Users/zhangyifan/Documents/MATH3320Project/report/report.pdf
-INPUT /usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -373,7 +371,10 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+OUTPUT /Users/zhangyifan/Documents/MATH3320Project/report/report.pdf
+INPUT /usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /Users/zhangyifan/Documents/MATH3320Project/report/report.aux
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
