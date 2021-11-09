@@ -3,6 +3,8 @@
 \usepackage{mathtools}
 \usepackage{datetime}
 \usepackage{interval}
+\usepackage{subfig}
+\usepackage{graphicx}
 
 \DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
 \setlength{\parskip}{1.5em}
@@ -15,7 +17,6 @@
 \begin{document}
 \maketitle
 \newpage
-
 % Part 1: introduction
 
 \section*{1.\quad Introduction}
@@ -40,13 +41,12 @@ In this paper, we will discuss some useful image decomposition methods, demonstr
 applications of these decomsotion methods for image compression and analyze their advantages,
 disadvantages and applicability.
 \end{flushleft}
-
 % Part2: Method
     % 1) definition + formula
     % 2) proof + error computation
     % 3) code + example
 
-\section*{2.\quad Image Decomposition methods}
+\section*{2.\quad Image Compression Models}
 \subsection*{2.1\quad Singular Value Decomposition (SVD)}
 \subsubsection*{2.1.1 \quad Definition}
 Every $m\times n$ image $g$ has a singular value decomposition.\\
@@ -57,20 +57,101 @@ For any $g \in M_{m \times n}$, the singular value decomposition (SVD) of $g$ is
  \mathbb{R}^{m \times n}$ is a diagonal matrix with diagonal elements 
  $\sigma_1 \geq\sigma_2\geq\cdots\geq\sigma_r > 0$ with r $\leq$ min ($m$,$n$). 
  The diagonal elements are called singular values. \\
-Denote the columns of $U$ by $\{\vec{u_1},\vec{u_2},\ldots,\vec{u_m}\}$\\
-Denote the columns of $V$ by $\{\vec{v_1},\vec{v_2},\ldots,\vec{v_n}\}$\\
-We have $g = U \Sigma V^T = \sum_{i=1}^{r}\sigma_i \vec{u_i}\vec{v_i}^T$, where $\vec{u_i}\vec{v_i}^T$ is called the eigenimages of g under SVD.\\
+Denote the columns of $U$ by $\{\vec{u_1},\vec{u_2},\ldots,\vec{u_m}\}$ and the columns of $V$ by $\{\vec{v_1},\vec{v_2},\ldots,\vec{v_n}\}$\\
+We have 
+\begin{equation*}
+    g = U \Sigma V^T = \sum_{i=1}^{r}\sigma_i \vec{u_i}\vec{v_i}^T,
+\end{equation*} 
+where $\vec{u_i}\vec{v_i}^T$ is called the eigenimages of g under SVD.
 
-\subsubsection*{2.1.2 \quad Error Computation}
-For any $k$ with $0\leq k \leq r$, we define\\
-\centerline{$g_k = \sum_{j=1}^{k}\sigma_j \vec{u_j}\vec{v_j}^T$} \\
-where $g_k$ is called a rank-k approximation of $g$.\\
-This low rank matrix approximation can be applied to image compression. 
-
-Here we apply Frobenius norm to compute the error of approximation:
+\subsubsection*{2.1.2 \quad Error Analysis}
+For any $k$ with $0\leq k \leq r$, we define
+\begin{equation*}
+    g_k = \sum_{j=1}^{k}\sigma_j \vec{u_j}\vec{v_j}^T,
+\end{equation*} 
+where $g_k$ is called a rank-k approximation of $g$.
+This low rank matrix approximation can be applied to image compression. \\
+Here we apply Frobenius norm to compute the error of approximation:\\
 Let $f=\sum_{j=1}^{r}\sigma_j \vec{u_j}\vec{v_j}^T$  be the SVD of an $M \times N$ image $f$.
-For any $k$ with $k<r$, and $f_k = \sum_{j=1}^{k}\sigma_j \vec{u_j}\vec{v_j}^T$, we have\\
-\centerline{${\parallel f-f_k\parallel}_F^2 = \sum_{j=k+1}^{r}\sigma_j^2$}\\
+For any $k$ with $k<r$, and $f_k = \sum_{j=1}^{k}\sigma_j \vec{u_j}\vec{v_j}^T$, we have
+\begin{equation*}
+    {\parallel f-f_k\parallel}_F^2 = \sum_{j=k+1}^{r}\sigma_j^2
+\end{equation*}
+
+\subsubsection*{2.1.3 \quad Application}
+SVD can be applied for image compression, by removing terms(eigenimages) associated to small singular values.
+We will show examples of image compression using SVD, so-called 'rank-k approximation'. For simplicity, we convert
+all images into grayscale images.\\
+First, we use Python to implement the rank-k approximation after computing SVD of inputed images. Here is the results for
+different rank-k.
+\pagebreak
+\begin{figure}
+    \centering
+    \subfloat[k = 10]{
+        \label{ref_label1}
+        \includegraphics[width=0.5\textwidth]{dora_10.png}
+        }
+    \subfloat[k = 40]{
+        \label{ref_label2}
+        \includegraphics[width=0.5\textwidth]{dora_40.png}
+        }\\
+    \subfloat[k = 100]{
+        \label{ref_label2}
+        \includegraphics[width=0.5\textwidth]{dora_100.png}
+        }
+    \subfloat[Original]{
+        \label{ref_label2}
+        \includegraphics[width=0.5\textwidth]{dora_orig.png}
+        }
+    \caption{Doraemon and its compressed images using SVD}
+    \label{ref_label_overall}
+\end{figure}\\
+Since the weightings of eigenimages depend on corresponding singular values, the larger the singular value is,
+the more important the eigen-image is. Hence, we consider ignoring singular values which are less than 0.5\% of the 
+largest singular value automatically. Our code and result are as follows:\\
+Code:
+\begin{figure*}
+    \centering
+    \includegraphics[width=1\textwidth]{SVD_code.png}
+    \caption{SVD Algorithm}
+\end{figure*}
+Results:
+\begin{figure}
+    \centering
+    \subfloat[Approximation with k = 86]{
+        \label{ref_label2}
+        \includegraphics[width=0.5\textwidth]{dora_auto_{k}.png}
+        }
+    \subfloat[Original]{
+        \label{ref_label2}
+        \includegraphics[width=0.5\textwidth]{dora_orig.png}
+        }
+    \caption{SVD algorithm results}
+    \label{ref_label_overall}
+\end{figure}
+Now we use the same algorithm to test another image called 'Lenna'. The comparison between 
+SVD compressed images and the original image are as follows:
+\begin{figure}
+    \centering
+    \subfloat[k = 20]{
+        \label{ref_label1}
+        \includegraphics[width=0.5\textwidth]{lenna_20.png}
+        }
+    \subfloat[k = 50]{
+        \label{ref_label2}
+        \includegraphics[width=0.5\textwidth]{lenna_50.png}
+        }\\
+    \subfloat[Approximation with k = 107]{
+        \label{ref_label2}
+        \includegraphics[width=0.5\textwidth]{lenna_auto_{k}.png}
+        }
+    \subfloat[Original]{
+        \label{ref_label2}
+        \includegraphics[width=0.5\textwidth]{lenna_orig.png}
+        }
+    \caption{Lenna and its compressed images using SVD}
+    \label{ref_label_overall}
+\end{figure}
 
 \subsection*{2.2\quad Haar Transform}
 
@@ -91,7 +172,7 @@ For any $k$ with $k<r$, and $f_k = \sum_{j=1}^{k}\sigma_j \vec{u_j}\vec{v_j}^T$,
     % 說一說 為什麼？ 哪種圖片更適合哪種方法？ 方法的特點
     % dont ask me why, dont wanna open the pages again
 
-\section*{3.\quad Results}
+\section*{3.\quad Conclusion}
 
 
 
