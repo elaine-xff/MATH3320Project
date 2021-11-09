@@ -14,8 +14,7 @@
 \newdate{date}{08}{11}{2021}
 \date{\displaydate{date}}
 
-
-\begin{document}
+\begin{document}   
 \maketitle
 \newpage
 % Part 1: introduction
@@ -65,21 +64,9 @@ We have
 \end{equation*} 
 where $\vec{u_i}\vec{v_i}^T$ is called the eigenimages of g under SVD.
 
-\subsubsection*{2.1.2 \quad Error Analysis}
-For any $k$ with $0\leq k \leq r$, we define
-\begin{equation*}
-    g_k = \sum_{j=1}^{k}\sigma_j \vec{u_j}\vec{v_j}^T,
-\end{equation*} 
-where $g_k$ is called a rank-k approximation of $g$.
-This low rank matrix approximation can be applied to image compression. \\
-Here we apply Frobenius norm to compute the error of approximation:\\
-Let $f=\sum_{j=1}^{r}\sigma_j \vec{u_j}\vec{v_j}^T$  be the SVD of an $M \times N$ image $f$.
-For any $k$ with $k<r$, and $f_k = \sum_{j=1}^{k}\sigma_j \vec{u_j}\vec{v_j}^T$, we have
-\begin{equation*}
-    {\parallel f-f_k\parallel}_F^2 = \sum_{j=k+1}^{r}\sigma_j^2
-\end{equation*}
 
-\subsubsection*{2.1.3 \quad Application}
+
+\subsubsection*{2.1.2 \quad Application}
 SVD can be applied for image compression, by removing terms(eigenimages) associated to small singular values.
 We will show examples of image compression using SVD, so-called 'rank-k approximation'. For simplicity, we convert
 all images into grayscale images.\\
@@ -152,6 +139,42 @@ SVD compressed images and the original image are as follows:
     \caption{Lenna and its compressed images using SVD}
     \label{ref_label_overall}
 \end{figure}
+
+\subsubsection*{2.1.3 \quad Error Analysis}
+For any $k$ with $0\leq k \leq r$, we define
+\begin{equation*}
+    g_k = \sum_{j=1}^{k}\sigma_j \vec{u_j}\vec{v_j}^T,
+\end{equation*} 
+where $g_k$ is called a rank-k approximation of $g$.
+This low rank matrix approximation can be applied to image compression. 
+\begin{flushleft}
+Here we apply Frobenius norm to compute the error of approximation:\\
+\end{flushleft}
+Let $f=\sum\limits_{j=1}^{r}\sigma_j \vec{u_j}\vec{v_j}^T$  be the SVD of an $M \times N$ image $f$.
+For any $k$ with $k<r$, and $f_k = \sum\limits_{j=1}^{k}\sigma_j \vec{u_j}\vec{v_j}^T$, we have
+\begin{equation*}
+    {\| f-f_k\|}_F^2 = \sum_{j=k+1}^{r}\sigma_j^2
+\end{equation*}
+\textit{Proof}: Let $f=\sum\limits_{j=1}^{r}\sigma_j \vec{u_j}\vec{v_j}^T$.\\
+Approximate $f$ by $f_k$ with $k<r$ where $f_k = \sum\limits_{j=1}^{k}\sigma_j \vec{u_j}\vec{v_j}^T$\\
+Define the error of the approximation by $D\equiv f-f_k = \sum\limits_{j=k+1}^{r}\sigma_j \vec{u_j}\vec{v_j}^T \in M_{m\times n}$
+Then the $m$-th row, $n$-th column entry of $D$ is given by
+\begin{equation*}
+    D_{mn} = \sum_{j=k+1}^{r}\sigma_j^2u_{im}v_{in}
+\end{equation*}
+where $\vec{u_i}= \left( \begin{array}{c} u_{i1} \\ \vdots \\ u_{iM} \end{array} \right)$,
+$\vec{v_i}= \left( \begin{array}{c} v_{i1} \\ \vdots \\ v_{iN} \end{array} \right)$. Then,
+\begin{equation*}
+    \begin{split}
+        {\| D \|}_F^2 &= \sum\limits_{m}\sum\limits_{n} D_{mn}^2\\
+        &= \sum\limits_{m}\sum\limits_{n} \left(\sum\limits_{i=k+1}^{r}\sigma_i^2u_{im}^2v_{in}^2 + 2\sum\limits_{i=k+1}^{r}\sum\limits_{j=k+1 \atop j\neq i}^{r}\sigma_i\sigma_j^u_{im}v_{in}u_{jm}v_{jn}\right)\\
+        &= \sum\limits_{i=k+1}^{r}\sigma_i^2\sum\limits_{m}u_{im}^2\sum\limits_{n}v_{in}^2+ 2\sum\limits_{j=k+1 \atop j\neq i}^{r}\sigma_i\sigma_j\sum\limits_{m}u_{im}u_{jm}\sum\limits_{n}v_{in}v_{jn}\right)\\ 
+        &= \sum\limits_{i=k+1}^{r}\sigma_i^2
+    \end{split}
+\end{equation*}
+Therefore, we prove that \\
+\textbf{Sum of square error of the approximation = Sum of omitted eigenvalues}.
+
 
 \subsection*{2.2\quad Haar Transform}
 
