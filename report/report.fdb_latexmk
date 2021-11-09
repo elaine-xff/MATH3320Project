@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1636470430 "/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.tex" "/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf" "report" 1636470430
-  "/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.aux" 1636470430 2632 57e5046829f99d7ae6f64b63ecdb57df ""
-  "/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.tex" 1636470429 6657 5e4f0e528f37298a7918fc7573ca4908 ""
+["pdflatex"] 1636471007 "/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.tex" "/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf" "report" 1636471007
+  "/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.aux" 1636471007 2632 57e5046829f99d7ae6f64b63ecdb57df ""
+  "/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.tex" 1636471006 6684 fc1868db7b3cf9392e49cf662daf6d46 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -55,6 +55,7 @@
   "/usr/local/texlive/2021/texmf-dist/tex/latex/datetime/datetime.sty" 1427500626 27587 b023ffe1328fa89e7f133201d87029de ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1601931149 46845 3b58f70c6e861a13d927bff09d35ecbc ""
+  "/usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty" 1137110151 6749 16d2656a1984957e674b149555f1ea1d ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/fmtcount/fc-english.def" 1580337424 14353 f66b7dd28616119c2519cd5cc4dcae14 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/fmtcount/fcnumparser.sty" 1580337424 12389 43a81443714469abac77ce09f44ad2e2 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/fmtcount/fcprefix.sty" 1580337424 12098 5c732241af77b5f0e56e640b7d538395 ""
@@ -88,11 +89,11 @@
   "lenna_50.png" 1636468806 59656 230d0552328c0bbedd7305842d445e6e ""
   "lenna_auto_{k}.png" 1636468770 63362 2775568978317a6d1c764713b0f31d9d ""
   "lenna_orig.png" 1636468763 63325 3dc54d2d1f09ea8ddaaa7a4bb20bdf3f ""
-  "report.aux" 1636470430 2632 57e5046829f99d7ae6f64b63ecdb57df "pdflatex"
-  "report.tex" 1636470429 6657 5e4f0e528f37298a7918fc7573ca4908 ""
+  "report.aux" 1636471007 2632 57e5046829f99d7ae6f64b63ecdb57df "pdflatex"
+  "report.tex" 1636471006 6684 fc1868db7b3cf9392e49cf662daf6d46 ""
   (generated)
-  "report.pdf"
   "report.aux"
-  "/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf"
   "/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.log"
   "report.log"
+  "report.pdf"
+  "/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf"

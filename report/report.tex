@@ -5,6 +5,7 @@
 \usepackage{interval}
 \usepackage{subfig}
 \usepackage{graphicx}
+\usepackage{float}
 
 \DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
 \setlength{\parskip}{1.5em}
@@ -84,7 +85,7 @@ We will show examples of image compression using SVD, so-called 'rank-k approxim
 all images into grayscale images.\\
 First, we use Python to implement the rank-k approximation after computing SVD of inputed images. Here is the results for
 different rank-k.
-\begin{figure}
+\begin{figure}[H]
     \centering
     \subfloat[k = 10]{
         \label{ref_label1}
@@ -104,18 +105,18 @@ different rank-k.
         }
     \caption{Doraemon and its compressed images using SVD}
     \label{ref_label_overall}
-\end{figure}\\
+\end{figure}
 Since the weightings of eigenimages depend on corresponding singular values, the larger the singular value is,
 the more important the eigen-image is. Hence, we consider ignoring singular values which are less than 0.5\% of the 
 largest singular value automatically. Our code and result are as follows:\\
 Code:
-\begin{figure*}
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{SVD_code.png}
     \caption{SVD Algorithm}
-\end{figure*}
+\end{figure}
 Results:
-\begin{figure}
+\begin{figure}[H]
     \centering
     \subfloat[Approximation with k = 86]{
         \label{ref_label2}
@@ -130,7 +131,7 @@ Results:
 \end{figure}
 Now we use the same algorithm to test another image called 'Lenna'. The comparison between 
 SVD compressed images and the original image are as follows:
-\begin{figure}
+\begin{figure}[H]
     \centering
     \subfloat[k = 20]{
         \label{ref_label1}
