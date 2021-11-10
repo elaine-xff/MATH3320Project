@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.21)  10 NOV 2021 03:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.21)  11 NOV 2021 02:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -234,27 +234,46 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box50
 \@float@everytoks=\toks29
 \@floatcapt=\box51
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count306
+\Gm@cntv=\count307
+\c@Gm@tempcnt=\count308
+\Gm@bindingoffset=\dimen168
+\Gm@wd@mp=\dimen169
+\Gm@odd@mp=\dimen170
+\Gm@even@mp=\dimen171
+\Gm@layoutwidth=\dimen172
+\Gm@layoutheight=\dimen173
+\Gm@layouthoffset=\dimen174
+\Gm@layoutvoffset=\dimen175
+\Gm@dimlist=\toks30
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count306
+\l__color_backend_stack_int=\count309
 \l__pdf_internal_box=\box52
 ) (/Users/zhangyifan/Documents/MATH3320Project/report/report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
@@ -264,60 +283,98 @@ Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
  (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count307
-\scratchdimen=\dimen168
+\scratchcounter=\count310
+\scratchdimen=\dimen176
 \scratchbox=\box53
-\nofMPsegments=\count308
-\nofMParguments=\count309
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count310
-\MPscratchDim=\dimen169
-\MPnumerator=\count311
-\makeMPintoPDFobject=\count312
-\everyMPtoPDFconversion=\toks31
+\nofMPsegments=\count311
+\nofMParguments=\count312
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count313
+\MPscratchDim=\dimen177
+\MPnumerator=\count314
+\makeMPintoPDFobject=\count315
+\everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(65.72623pt, 466.0554pt, 65.72624pt)
+* v-part:(T,H,B)=(74.36453pt, 659.1355pt, 111.54681pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=466.0554pt
+* \textheight=659.1355pt
+* \oddsidemargin=-6.54376pt
+* \evensidemargin=-6.54376pt
+* \topmargin=-34.90546pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Overfull \hbox (3.26385pt too wide) in paragraph at lines 55--66
+[]\OT1/cmr/m/n/12 ,
+ []
+
 <dora_10.png, id=13, 433.62pt x 289.08pt>
 File: dora_10.png Graphic file (type png)
 <use dora_10.png>
-Package pdftex.def Info: dora_10.png  used on input line 80.
-(pdftex.def)             Requested size: 195.0pt x 130.00098pt.
+Package pdftex.def Info: dora_10.png  used on input line 82.
+(pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 <dora_40.png, id=15, 433.62pt x 289.08pt>
 File: dora_40.png Graphic file (type png)
 <use dora_40.png>
-Package pdftex.def Info: dora_40.png  used on input line 84.
-(pdftex.def)             Requested size: 195.0pt x 130.00098pt.
+Package pdftex.def Info: dora_40.png  used on input line 86.
+(pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (19.58313pt too wide) in paragraph at lines 80--84
+Overfull \hbox (19.58311pt too wide) in paragraph at lines 82--86
  [][][] 
  []
 
 <dora_100.png, id=16, 433.62pt x 289.08pt>
 File: dora_100.png Graphic file (type png)
 <use dora_100.png>
-Package pdftex.def Info: dora_100.png  used on input line 88.
-(pdftex.def)             Requested size: 195.0pt x 130.00098pt.
+Package pdftex.def Info: dora_100.png  used on input line 90.
+(pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 <dora_orig.png, id=17, 433.62pt x 289.08pt>
 File: dora_orig.png Graphic file (type png)
 <use dora_orig.png>
-Package pdftex.def Info: dora_orig.png  used on input line 92.
-(pdftex.def)             Requested size: 195.0pt x 130.00098pt.
+Package pdftex.def Info: dora_orig.png  used on input line 94.
+(pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.6665pt too wide) in paragraph at lines 88--93
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 90--95
  [][][] 
  []
 
@@ -325,71 +382,77 @@ Overfull \hbox (15.6665pt too wide) in paragraph at lines 88--93
 <SVD_code.png, id=28, 782.925pt x 413.545pt>
 File: SVD_code.png Graphic file (type png)
 <use SVD_code.png>
-Package pdftex.def Info: SVD_code.png  used on input line 102.
-(pdftex.def)             Requested size: 390.0pt x 206.00214pt.
+Package pdftex.def Info: SVD_code.png  used on input line 104.
+(pdftex.def)             Requested size: 466.0554pt x 246.17274pt.
  [4 </Users/zhangyifan/Documents/MATH3320Project/report/dora_10.png> </Users/zhangyifan/Documents/MATH3320Project/report/dora_40.png> </Users/zhangyifan/Documents/MATH3320Project/report/dora_100.png> </Users/zhangyifan/Documents/MATH3320Project/report/dora_orig.png>]
 <dora_auto_{k}.png, id=36, 433.62pt x 289.08pt>
 File: dora_auto_{k}.png Graphic file (type png)
 <use dora_auto_{k}.png>
-Package pdftex.def Info: dora_auto_{k}.png  used on input line 111.
-(pdftex.def)             Requested size: 195.0pt x 130.00098pt.
+Package pdftex.def Info: dora_auto_{k}.png  used on input line 113.
+(pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 File: dora_orig.png Graphic file (type png)
 <use dora_orig.png>
-Package pdftex.def Info: dora_orig.png  used on input line 115.
-(pdftex.def)             Requested size: 195.0pt x 130.00098pt.
+Package pdftex.def Info: dora_orig.png  used on input line 117.
+(pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.6665pt too wide) in paragraph at lines 111--116
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 113--118
  [][][] 
  []
 
 <lenna_20.png, id=37, 433.62pt x 289.08pt>
 File: lenna_20.png Graphic file (type png)
 <use lenna_20.png>
-Package pdftex.def Info: lenna_20.png  used on input line 126.
-(pdftex.def)             Requested size: 195.0pt x 130.00098pt.
+Package pdftex.def Info: lenna_20.png  used on input line 128.
+(pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 <lenna_50.png, id=38, 433.62pt x 289.08pt>
 File: lenna_50.png Graphic file (type png)
 <use lenna_50.png>
-Package pdftex.def Info: lenna_50.png  used on input line 130.
-(pdftex.def)             Requested size: 195.0pt x 130.00098pt.
+Package pdftex.def Info: lenna_50.png  used on input line 132.
+(pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.6665pt too wide) in paragraph at lines 126--130
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 128--132
  [][][] 
  []
 
 <lenna_auto_{k}.png, id=39, 433.62pt x 289.08pt>
 File: lenna_auto_{k}.png Graphic file (type png)
 <use lenna_auto_{k}.png>
-Package pdftex.def Info: lenna_auto_{k}.png  used on input line 134.
-(pdftex.def)             Requested size: 195.0pt x 130.00098pt.
+Package pdftex.def Info: lenna_auto_{k}.png  used on input line 136.
+(pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 <lenna_orig.png, id=40, 433.62pt x 289.08pt>
 File: lenna_orig.png Graphic file (type png)
 <use lenna_orig.png>
-Package pdftex.def Info: lenna_orig.png  used on input line 138.
-(pdftex.def)             Requested size: 195.0pt x 130.00098pt.
+Package pdftex.def Info: lenna_orig.png  used on input line 140.
+(pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.6665pt too wide) in paragraph at lines 134--139
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 136--141
  [][][] 
  []
 
 [5 </Users/zhangyifan/Documents/MATH3320Project/report/SVD_code.png> </Users/zhangyifan/Documents/MATH3320Project/report/dora_auto_{k}.png>] [6 </Users/zhangyifan/Documents/MATH3320Project/report/lenna_20.png> </Users/zhangyifan/Documents/MATH3320Project/report/lenna_50.png> </Users/zhangyifan/Documents/MATH3320Project/report/lenna_auto_{k}.png> </Users/zhangyifan/Documents/MATH3320Project/report/lenna_orig.png>]
 
+/Users/zhangyifan/Documents/MATH3320Project/report/report.tex:175: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.175     \end{flalign}
+                       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 Package amsmath Warning: Foreign command \atop;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 173.
+(amsmath)                 on input line 175.
 
-/Users/zhangyifan/Documents/MATH3320Project/report/report.tex:173: Double subscript.
+/Users/zhangyifan/Documents/MATH3320Project/report/report.tex:175: Double subscript.
 <argument> ...op j\neq i}^{r}\sigma _i\sigma _j^u_
                                                   {im}v_{in}u_{jm}v_{jn}\rig...
-l.173     \end{split}
-                     
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-/Users/zhangyifan/Documents/MATH3320Project/report/report.tex:173: Double subscript.
-<argument> ...op j\neq i}^{r}\sigma _i\sigma _j^u_
-                                                  {im}v_{in}u_{jm}v_{jn}\rig...
-l.173     \end{split}
-                     
+l.175     \end{flalign}
+                       
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 [7] [8] (/Users/zhangyifan/Documents/MATH3320Project/report/report.aux)
@@ -398,15 +461,15 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 6139 strings out of 478994
- 100672 string characters out of 5858184
- 410730 words of memory out of 5000000
- 23538 multiletter control sequences out of 15000+600000
+ 6657 strings out of 478994
+ 108216 string characters out of 5858184
+ 424642 words of memory out of 5000000
+ 24045 multiletter control sequences out of 15000+600000
  412540 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,16n,133p,1060b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 85i,10n,133p,1060b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/zhangyifan/Documents/MATH3320Project/report/report.pdf (8 pages, 731346 bytes).
+Output written on /Users/zhangyifan/Documents/MATH3320Project/report/report.pdf (8 pages, 730419 bytes).
 PDF statistics:
  112 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream

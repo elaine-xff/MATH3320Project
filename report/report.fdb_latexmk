@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1636487411 "/Users/zhangyifan/Documents/MATH3320Project/report/report.tex" "/Users/zhangyifan/Documents/MATH3320Project/report/report.pdf" "report" 1636487411
-  "/Users/zhangyifan/Documents/MATH3320Project/report/report.aux" 1636487411 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/Users/zhangyifan/Documents/MATH3320Project/report/report.tex" 1636487409 8064 91557413a0d9bd2ce8d7a6029193838d ""
+["pdflatex"] 1636570279 "/Users/zhangyifan/Documents/MATH3320Project/report/report.tex" "/Users/zhangyifan/Documents/MATH3320Project/report/report.pdf" "report" 1636570279
+  "/Users/zhangyifan/Documents/MATH3320Project/report/report.aux" 1636570279 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/Users/zhangyifan/Documents/MATH3320Project/report/report.tex" 1636570277 8149 504af1be3264c0423d63e449d9a2e5ad ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -38,6 +38,8 @@
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1248133631 36118 fad905eba93cff5bce1e185fe980a177 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
   "/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
+  "/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty" 1583617216 6501 4011d89d9621e0b0901138815ba5ff29 ""
+  "/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty" 1572645307 1057 525c2192b5febbd8c1f662c9468335bb ""
   "/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex" 1606168878 36938 2b5b0039ae51cc081ebb25d84b8a3408 ""
   "/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex" 1601326656 37431 9abe862035de1b29c7a677f3205e3d9f ""
   "/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex" 1605910342 19231 3cbf682090baecad8e17a66b7a271ed1 ""
@@ -65,6 +67,7 @@
   "/usr/local/texlive/2021/texmf-dist/tex/latex/fmtcount/fcnumparser.sty" 1580337424 12389 43a81443714469abac77ce09f44ad2e2 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/fmtcount/fcprefix.sty" 1580337424 12098 5c732241af77b5f0e56e640b7d538395 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/fmtcount/fmtcount.sty" 1582668197 30872 ed70d543c537f19c96fc753321f1c3cc ""
+  "/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def" 1601931164 19103 48d29b6e2a64cb717117ef65f107b404 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty" 1601675358 18272 a8c6a275b34ab6717ceeb8fa04b104e2 ""
@@ -95,10 +98,10 @@
   "lenna_auto_{k}.png" 1636470740 63362 2775568978317a6d1c764713b0f31d9d ""
   "lenna_orig.png" 1636470740 63325 3dc54d2d1f09ea8ddaaa7a4bb20bdf3f ""
   "report.aux" 0 -1 0 "pdflatex"
-  "report.tex" 1636487409 8064 91557413a0d9bd2ce8d7a6029193838d ""
+  "report.tex" 1636570277 8149 504af1be3264c0423d63e449d9a2e5ad ""
   (generated)
-  "/Users/zhangyifan/Documents/MATH3320Project/report/report.log"
-  "report.aux"
-  "report.log"
-  "/Users/zhangyifan/Documents/MATH3320Project/report/report.pdf"
   "report.pdf"
+  "/Users/zhangyifan/Documents/MATH3320Project/report/report.log"
+  "report.log"
+  "report.aux"
+  "/Users/zhangyifan/Documents/MATH3320Project/report/report.pdf"

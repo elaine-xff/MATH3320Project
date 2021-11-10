@@ -6,9 +6,11 @@
 \usepackage{subfig}
 \usepackage{graphicx}
 \usepackage{float}
+\usepackage{geometry}
 
+\geometry{a4paper,scale=0.78}
 \DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
-\setlength{\parskip}{1.5em}
+\setlength{\parskip}{1em}
 \title{MATH3320 Project Report\\Topic: Image Compression}
 \author{ZHANG Xinfang 1155141566\\ZHANG Yifan 1155141570}
 \newdate{date}{08}{11}{2021}
@@ -41,6 +43,7 @@ In this paper, we will discuss some useful image decomposition methods, demonstr
 applications of these decomsotion methods for image compression and analyze their advantages,
 disadvantages and applicability.
 \end{flushleft}
+\newpage
 % Part2: Method
     % 1) definition + formula
     % 2) proof + error computation
@@ -56,18 +59,17 @@ For any $g \in M_{m \times n}$, the singular value decomposition (SVD) of $g$ is
  with $U \in M_{m \times m}$ and $V \in M_{n \times n}$ both unitary, and $\Sigma \in 
  \mathbb{R}^{m \times n}$ is a diagonal matrix with diagonal elements 
  $\sigma_1 \geq\sigma_2\geq\cdots\geq\sigma_r > 0$ with r $\leq$ min ($m$,$n$). 
- The diagonal elements are called singular values. \\
-Denote the columns of $U$ by $\{\vec{u_1},\vec{u_2},\ldots,\vec{u_m}\}$ and the columns of $V$ by $\{\vec{v_1},\vec{v_2},\ldots,\vec{v_n}\}$\\
-We have 
-\begin{equation*}
-    g = U \Sigma V^T = \sum_{i=1}^{r}\sigma_i \vec{u_i}\vec{v_i}^T,
-\end{equation*} 
+The diagonal elements are called singular values. 
+Then we have\\
+\centerline{$g = U \Sigma V^T = \sum\limits_{i=1}^{r}\sigma_i \vec{u_i}\vec{v_i}^T$},
 where $\vec{u_i}\vec{v_i}^T$ is called the eigenimages of g under SVD.
 
-
+\noindent
+The most interesting part of SVD methods is that the data arrange in such a way that the most 
+important data is stored on the top, which corresponds to the top eigenvalues and eigenimages.
 
 \subsubsection*{2.1.2 \quad Application}
-SVD can be applied for image compression, by removing terms(eigenimages) associated to small singular values.
+SVD can be applied for image compression, by removing terms (eigenimages) associated to small singular values.
 We will show examples of image compression using SVD, so-called 'rank-k approximation'. For simplicity, we convert
 all images into grayscale images.\\
 First, we use Python to implement the rank-k approximation after computing SVD of inputed images. Here is the results for
@@ -165,27 +167,24 @@ Then the $m$-th row, $n$-th column entry of $D$ is given by
 where $\vec{u_i}= \left( \begin{array}{c} u_{i1} \\ \vdots \\ u_{iM} \end{array} \right)$,
 $\vec{v_i}= \left( \begin{array}{c} v_{i1} \\ \vdots \\ v_{iN} \end{array} \right)$. Then,
 \begin{equation*}
-    \begin{split}
+    \begin{flalign}
         {\| D \|}_F^2 &= \sum\limits_{m}\sum\limits_{n} D_{mn}^2\\
         &= \sum\limits_{m}\sum\limits_{n} \left(\sum\limits_{i=k+1}^{r}\sigma_i^2u_{im}^2v_{in}^2 + 2\sum\limits_{i=k+1}^{r}\sum\limits_{j=k+1 \atop j\neq i}^{r}\sigma_i\sigma_j^u_{im}v_{in}u_{jm}v_{jn}\right)\\
         &= \sum\limits_{i=k+1}^{r}\sigma_i^2\sum\limits_{m}u_{im}^2\sum\limits_{n}v_{in}^2+ 2\sum\limits_{j=k+1 \atop j\neq i}^{r}\sigma_i\sigma_j\sum\limits_{m}u_{im}u_{jm}\sum\limits_{n}v_{in}v_{jn}\\ 
         &= \sum\limits_{i=k+1}^{r}\sigma_i^2
-    \end{split}
+    \end{flalign}
 \end{equation*}
 Therefore, we prove that \\
 \textbf{Sum of square error of the approximation = Sum of omitted eigenvalues}.
 
 
-\subsection*{2.2\quad Haar Transform}
+\subsection*{2.2\quad Haar Transform and Walsh Transform}
 
 
-\subsection*{2.3\quad Walsh Transform}
+\subsection*{2.3\quad Discrete Fourier Transform (DFT)}
 
 
-\subsection*{2.4\quad Discrete Fourier Transform (DFT)}
-
-
-\subsection*{2.5\quad Even Discrete Cosine Transform (EDCT)}
+\subsection*{2.4\quad Even Discrete Cosine Transform (EDCT)}
 
 
 
