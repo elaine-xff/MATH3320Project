@@ -19,7 +19,7 @@
 
 \begin{document}   
 \maketitle
-\newpage
+% \newpage
 % Part 1: introduction
 
 \section*{1.\quad Introduction}
@@ -76,7 +76,14 @@ this report is done using Python. For simplicity, we convert all images into gra
 grayscalized process are as follows:
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{library.png}
+    \subfloat[Packages]{
+        \label{ref_label1}
+        \includegraphics[width=0.5\textwidth]{library.png}
+        }
+    \subfloat[rgb2gray]{
+        \label{ref_label2}
+        \includegraphics[width=0.5\textwidth]{rgb2gray.png}
+        }\\
     \caption{Packages and pre-processing}
 \end{figure}
 \begin{flushleft}
@@ -109,16 +116,17 @@ the more important the eigen-image is. Hence, we consider ignoring singular valu
 largest singular value automatically so that the image can be compressed without losing too much information and influcing
 the image quality. Our code and result are as follows:\\
 \end{flushleft}
+\pagebreak
 Code:
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{SVD_code.png}
     \caption{SVD Algorithm}
 \end{figure}
-Results:
+Results: 
 \begin{figure}[H]
     \centering
-    \subfloat[Approximation with k = 86]{
+    \subfloat[Algorithm with k = 86]{
         \label{ref_label2}
         \includegraphics[width=0.5\textwidth]{dora_auto_{k}.png}
         }
@@ -131,30 +139,29 @@ Results:
 \end{figure}
 \begin{flushleft}
 Now we use the same algorithm to test another image called 'Lenna'. The comparison between 
-SVD compressed images and the original image are as follows:
+SVD compressed images and the original image are as follows: (\# of singular values = 512)  
 \end{flushleft}
 \begin{figure}[H]
     \centering
     \subfloat[k = 20]{
         \label{ref_label1}
         \includegraphics[width=0.5\textwidth]{lenna_20.png}
-        }
+    }
     \subfloat[k = 50]{
         \label{ref_label2}
         \includegraphics[width=0.5\textwidth]{lenna_50.png}
-        }\\
-    \subfloat[Approximation with k = 107]{
+    }\\
+    \subfloat[Algorithm with k = 107]{
         \label{ref_label2}
         \includegraphics[width=0.5\textwidth]{lenna_auto_{k}.png}
-        }
+    }
     \subfloat[Original]{
         \label{ref_label2}
         \includegraphics[width=0.5\textwidth]{lenna_orig.png}
-        }
+    }
     \caption{Lenna and its compressed images using SVD}
     \label{ref_label_overall}
 \end{figure}
-
 \subsubsection*{2.1.3 \quad Error Analysis}
 For any $k$ with $0\leq k \leq r$, we define
 \begin{equation*}
@@ -191,7 +198,66 @@ Therefore, we prove that\\
 
 \subsection*{2.2\quad Haar Transform and Walsh Transform}
 
-
+\subsubsection*{2.2.2 \quad Application}
+According to the definition in last subsection, the transformation codes and transformed images are implemented as follows:\\
+Haar Transform:\\
+Code:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{haar_code.png}
+    \caption{Haar Transform Codes}
+\end{figure}
+\begin{flushleft}
+Results:\\
+In forllowing figures, we keep left corner Haar coefficients in Haar transform matrix up to  $2 \times 2$, 
+$3 \times 3$, $4 \times 4$, \dots respectively.
+(Size of this 'balloon' image = $128 \times 128$)
+\end{flushleft}
+\begin{figure}[H]
+    \centering
+    \subfloat[Haar to 2]{
+        \label{ref_label1}
+        \includegraphics[width=0.3\textwidth]{balloon_HaarTo_2.png}
+        }
+    \subfloat[Haar to 3]{
+        \label{ref_label2}
+        \includegraphics[width=0.3\textwidth]{balloon_HaarTo_3.png}
+        }
+    \subfloat[Haar to 4]{
+        \label{ref_label2}
+        \includegraphics[width=0.3\textwidth]{balloon_HaarTo_4.png}
+        }\\
+    \subfloat[Haar to 5]{
+        \label{ref_label2}
+        \includegraphics[width=0.3\textwidth]{balloon_HaarTo_5.png}
+        }
+    \subfloat[Haar to 6]{
+        \label{ref_label2}
+        \includegraphics[width=0.3\textwidth]{balloon_HaarTo_6.png}
+        }
+    \subfloat[Haar to 7]{
+        \label{ref_label2}
+        \includegraphics[width=0.3\textwidth]{balloon_HaarTo_7.png}
+        }
+    \caption{Balloon and its compressed images using Haar Transform}
+    \label{ref_label_overall}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \subfloat[Haar to 10]{
+        \label{ref_label1}
+        \includegraphics[width=0.3\textwidth]{balloon_HaarTo_10.png}
+        }
+    \subfloat[Original]{
+        \label{ref_label2}
+        \includegraphics[width=0.3\textwidth]{balloon_orig.png}
+        }
+    \caption{Haar Compression VS Original Image}
+    \label{ref_label_overall}
+\end{figure}
+\begin{flushleft}
+It is obvious that 'Haar to 10' has already achieced a good performance compared to the original image size.
+\end{flushleft}
 \subsection*{2.3\quad Discrete Fourier Transform (DFT)}
 
 

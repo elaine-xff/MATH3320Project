@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.19)  11 NOV 2021 20:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.19)  11 NOV 2021 21:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -261,6 +261,18 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__pdf_internal_box=\box52
 ) (/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.aux
 
+LaTeX Warning: Label `ref_label1' multiply defined.
+
+
+LaTeX Warning: Label `sub@ref_label1' multiply defined.
+
+
+LaTeX Warning: Label `ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `sub@ref_label2' multiply defined.
+
+
 LaTeX Warning: Label `ref_label2' multiply defined.
 
 
@@ -304,6 +316,60 @@ LaTeX Warning: Label `ref_label2' multiply defined.
 
 
 LaTeX Warning: Label `sub@ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `sub@ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `ref_label_overall' multiply defined.
+
+
+LaTeX Warning: Label `ref_label1' multiply defined.
+
+
+LaTeX Warning: Label `sub@ref_label1' multiply defined.
+
+
+LaTeX Warning: Label `ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `sub@ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `sub@ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `sub@ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `sub@ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `sub@ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `ref_label_overall' multiply defined.
+
+
+LaTeX Warning: Label `ref_label1' multiply defined.
+
+
+LaTeX Warning: Label `sub@ref_label1' multiply defined.
 
 
 LaTeX Warning: Label `ref_label2' multiply defined.
@@ -421,116 +487,171 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Overfull \hbox (3.26385pt too wide) in paragraph at lines 56--67
 []\OT1/cmr/m/n/12 ,
  []
 
-<library.png, id=13, 526.96875pt x 244.915pt>
+<library.png, id=10, 423.5825pt x 92.345pt>
 File: library.png Graphic file (type png)
 <use library.png>
-Package pdftex.def Info: library.png  used on input line 79.
-(pdftex.def)             Requested size: 466.0554pt x 216.61708pt.
-[3]
-<dora_10.png, id=25, 433.62pt x 289.08pt>
+Package pdftex.def Info: library.png  used on input line 82.
+(pdftex.def)             Requested size: 233.0277pt x 50.80257pt.
+<rgb2gray.png, id=12, 538.01pt x 125.46875pt>
+File: rgb2gray.png Graphic file (type png)
+<use rgb2gray.png>
+Package pdftex.def Info: rgb2gray.png  used on input line 86.
+(pdftex.def)             Requested size: 233.0277pt x 54.34488pt.
+
+Overfull \hbox (19.58311pt too wide) in paragraph at lines 82--86
+ [][][] 
+ []
+
+<dora_10.png, id=13, 433.62pt x 289.08pt>
 File: dora_10.png Graphic file (type png)
 <use dora_10.png>
-Package pdftex.def Info: dora_10.png  used on input line 90.
+Package pdftex.def Info: dora_10.png  used on input line 97.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
-<dora_40.png, id=26, 433.62pt x 289.08pt>
+<dora_40.png, id=14, 433.62pt x 289.08pt>
 File: dora_40.png Graphic file (type png)
 <use dora_40.png>
-Package pdftex.def Info: dora_40.png  used on input line 94.
+Package pdftex.def Info: dora_40.png  used on input line 101.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (19.58311pt too wide) in paragraph at lines 90--94
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 97--101
  [][][] 
  []
 
-<dora_100.png, id=27, 433.62pt x 289.08pt>
+<dora_100.png, id=15, 433.62pt x 289.08pt>
 File: dora_100.png Graphic file (type png)
 <use dora_100.png>
-Package pdftex.def Info: dora_100.png  used on input line 98.
+Package pdftex.def Info: dora_100.png  used on input line 105.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
-<dora_orig.png, id=28, 433.62pt x 289.08pt>
+<dora_orig.png, id=16, 433.62pt x 289.08pt>
 File: dora_orig.png Graphic file (type png)
 <use dora_orig.png>
-Package pdftex.def Info: dora_orig.png  used on input line 102.
+Package pdftex.def Info: dora_orig.png  used on input line 109.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 98--103
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 105--110
  [][][] 
  []
 
-[4 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/library.png>]
-<SVD_code.png, id=33, 729.72626pt x 320.19624pt>
+[2 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/library.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/rgb2gray.png>] [3 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_10.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_40.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_100.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_orig.png>]
+<SVD_code.png, id=36, 729.72626pt x 320.19624pt>
 File: SVD_code.png Graphic file (type png)
 <use SVD_code.png>
-Package pdftex.def Info: SVD_code.png  used on input line 115.
+Package pdftex.def Info: SVD_code.png  used on input line 123.
 (pdftex.def)             Requested size: 466.0554pt x 204.49982pt.
- [5 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_10.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_40.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_100.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_orig.png>]
-<dora_auto_{k}.png, id=41, 433.62pt x 289.08pt>
+<dora_auto_{k}.png, id=37, 433.62pt x 289.08pt>
 File: dora_auto_{k}.png Graphic file (type png)
 <use dora_auto_{k}.png>
-Package pdftex.def Info: dora_auto_{k}.png  used on input line 124.
+Package pdftex.def Info: dora_auto_{k}.png  used on input line 132.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 File: dora_orig.png Graphic file (type png)
 <use dora_orig.png>
-Package pdftex.def Info: dora_orig.png  used on input line 128.
+Package pdftex.def Info: dora_orig.png  used on input line 136.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 124--129
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 132--137
  [][][] 
  []
 
-<lenna_20.png, id=42, 433.62pt x 289.08pt>
+<lenna_20.png, id=38, 433.62pt x 289.08pt>
 File: lenna_20.png Graphic file (type png)
 <use lenna_20.png>
-Package pdftex.def Info: lenna_20.png  used on input line 141.
+Package pdftex.def Info: lenna_20.png  used on input line 149.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
-<lenna_50.png, id=43, 433.62pt x 289.08pt>
+<lenna_50.png, id=39, 433.62pt x 289.08pt>
 File: lenna_50.png Graphic file (type png)
 <use lenna_50.png>
-Package pdftex.def Info: lenna_50.png  used on input line 145.
+Package pdftex.def Info: lenna_50.png  used on input line 153.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 141--145
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 149--153
  [][][] 
  []
 
-<lenna_auto_{k}.png, id=44, 433.62pt x 289.08pt>
+<lenna_auto_{k}.png, id=40, 433.62pt x 289.08pt>
 File: lenna_auto_{k}.png Graphic file (type png)
 <use lenna_auto_{k}.png>
-Package pdftex.def Info: lenna_auto_{k}.png  used on input line 149.
+Package pdftex.def Info: lenna_auto_{k}.png  used on input line 157.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
-<lenna_orig.png, id=45, 433.62pt x 289.08pt>
+<lenna_orig.png, id=41, 433.62pt x 289.08pt>
 File: lenna_orig.png Graphic file (type png)
 <use lenna_orig.png>
-Package pdftex.def Info: lenna_orig.png  used on input line 153.
+Package pdftex.def Info: lenna_orig.png  used on input line 161.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 149--154
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 157--162
  [][][] 
  []
 
-[6 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/SVD_code.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_auto_{k}.png>] [7 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_20.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_50.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_auto_{k}.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_orig.png>] [8] [9] (/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.aux)
+[4 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/SVD_code.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_auto_{k}.png>] [5 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_20.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_50.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_auto_{k}.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_orig.png>]
+<haar_code.png, id=54, 818.05624pt x 467.7475pt>
+File: haar_code.png Graphic file (type png)
+<use haar_code.png>
+Package pdftex.def Info: haar_code.png  used on input line 207.
+(pdftex.def)             Requested size: 466.0554pt x 266.48323pt.
+ [6]
+<balloon_HaarTo_2.png, id=60, 433.62pt x 289.08pt>
+File: balloon_HaarTo_2.png Graphic file (type png)
+<use balloon_HaarTo_2.png>
+Package pdftex.def Info: balloon_HaarTo_2.png  used on input line 221.
+(pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
+<balloon_HaarTo_3.png, id=61, 433.62pt x 289.08pt>
+File: balloon_HaarTo_3.png Graphic file (type png)
+<use balloon_HaarTo_3.png>
+Package pdftex.def Info: balloon_HaarTo_3.png  used on input line 225.
+(pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
+<balloon_HaarTo_4.png, id=62, 433.62pt x 289.08pt>
+File: balloon_HaarTo_4.png Graphic file (type png)
+<use balloon_HaarTo_4.png>
+Package pdftex.def Info: balloon_HaarTo_4.png  used on input line 229.
+(pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
+<balloon_HaarTo_5.png, id=63, 433.62pt x 289.08pt>
+File: balloon_HaarTo_5.png Graphic file (type png)
+<use balloon_HaarTo_5.png>
+Package pdftex.def Info: balloon_HaarTo_5.png  used on input line 233.
+(pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
+<balloon_HaarTo_6.png, id=64, 433.62pt x 289.08pt>
+File: balloon_HaarTo_6.png Graphic file (type png)
+<use balloon_HaarTo_6.png>
+Package pdftex.def Info: balloon_HaarTo_6.png  used on input line 237.
+(pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
+<balloon_HaarTo_7.png, id=65, 433.62pt x 289.08pt>
+File: balloon_HaarTo_7.png Graphic file (type png)
+<use balloon_HaarTo_7.png>
+Package pdftex.def Info: balloon_HaarTo_7.png  used on input line 241.
+(pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
+<balloon_HaarTo_10.png, id=66, 433.62pt x 289.08pt>
+File: balloon_HaarTo_10.png Graphic file (type png)
+<use balloon_HaarTo_10.png>
+Package pdftex.def Info: balloon_HaarTo_10.png  used on input line 250.
+(pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
+<balloon_orig.png, id=67, 433.62pt x 289.08pt>
+File: balloon_orig.png Graphic file (type png)
+<use balloon_orig.png>
+Package pdftex.def Info: balloon_orig.png  used on input line 254.
+(pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
+ [7 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/haar_code.png>] [8 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_HaarTo_2.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_HaarTo_3.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_HaarTo_4.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_HaarTo_5.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_HaarTo_6.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_HaarTo_7.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_HaarTo_10.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_orig.png>] (/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7133 strings out of 478994
- 116736 string characters out of 5858184
+ 7194 strings out of 478994
+ 118034 string characters out of 5858184
  438921 words of memory out of 5000000
- 24488 multiletter control sequences out of 15000+600000
+ 24539 multiletter control sequences out of 15000+600000
  412540 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,18n,133p,1073b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 85i,18n,133p,1073b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf (9 pages, 778571 bytes).
+Output written on /Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf (8 pages, 954154 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 126 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
