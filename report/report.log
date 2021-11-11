@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.21)  11 NOV 2021 02:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.19)  11 NOV 2021 19:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/zhangyifan/Documents/MATH3320Project/report/report.tex
-(/Users/zhangyifan/Documents/MATH3320Project/report/report.tex
+**/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.tex
+(/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -257,7 +257,7 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count309
 \l__pdf_internal_box=\box52
-) (/Users/zhangyifan/Documents/MATH3320Project/report/report.aux)
+) (/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -379,12 +379,12 @@ Overfull \hbox (15.66649pt too wide) in paragraph at lines 90--95
  []
 
 [3]
-<SVD_code.png, id=28, 782.925pt x 413.545pt>
+<SVD_code.png, id=28, 729.72626pt x 320.19624pt>
 File: SVD_code.png Graphic file (type png)
 <use SVD_code.png>
 Package pdftex.def Info: SVD_code.png  used on input line 104.
-(pdftex.def)             Requested size: 466.0554pt x 246.17274pt.
- [4 </Users/zhangyifan/Documents/MATH3320Project/report/dora_10.png> </Users/zhangyifan/Documents/MATH3320Project/report/dora_40.png> </Users/zhangyifan/Documents/MATH3320Project/report/dora_100.png> </Users/zhangyifan/Documents/MATH3320Project/report/dora_orig.png>]
+(pdftex.def)             Requested size: 466.0554pt x 204.49982pt.
+ [4 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_10.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_40.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_100.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_orig.png>]
 <dora_auto_{k}.png, id=36, 433.62pt x 289.08pt>
 File: dora_auto_{k}.png Graphic file (type png)
 <use dora_auto_{k}.png>
@@ -429,9 +429,9 @@ Overfull \hbox (15.66649pt too wide) in paragraph at lines 136--141
  [][][] 
  []
 
-[5 </Users/zhangyifan/Documents/MATH3320Project/report/SVD_code.png> </Users/zhangyifan/Documents/MATH3320Project/report/dora_auto_{k}.png>] [6 </Users/zhangyifan/Documents/MATH3320Project/report/lenna_20.png> </Users/zhangyifan/Documents/MATH3320Project/report/lenna_50.png> </Users/zhangyifan/Documents/MATH3320Project/report/lenna_auto_{k}.png> </Users/zhangyifan/Documents/MATH3320Project/report/lenna_orig.png>]
+[5 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/SVD_code.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_auto_{k}.png>] [6 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_20.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_50.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_auto_{k}.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_orig.png>]
 
-/Users/zhangyifan/Documents/MATH3320Project/report/report.tex:175: Package amsmath Error: Erroneous nesting of equation structures;
+/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.tex:175: Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
 
 See the amsmath package documentation for explanation.
@@ -448,28 +448,28 @@ Package amsmath Warning: Foreign command \atop;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 175.
 
-/Users/zhangyifan/Documents/MATH3320Project/report/report.tex:175: Double subscript.
+/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.tex:175: Double subscript.
 <argument> ...op j\neq i}^{r}\sigma _i\sigma _j^u_
                                                   {im}v_{in}u_{jm}v_{jn}\rig...
 l.175     \end{flalign}
                        
 I treat `x_1_2' essentially like `x_1{}_2'.
 
-[7] [8] (/Users/zhangyifan/Documents/MATH3320Project/report/report.aux)
+[7] [8] (/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
  6657 strings out of 478994
- 108216 string characters out of 5858184
+ 108333 string characters out of 5858184
  424642 words of memory out of 5000000
  24045 multiletter control sequences out of 15000+600000
  412540 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,10n,133p,1060b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 85i,10n,133p,1073b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/zhangyifan/Documents/MATH3320Project/report/report.pdf (8 pages, 730419 bytes).
+Output written on /Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf (8 pages, 725685 bytes).
 PDF statistics:
  112 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream
