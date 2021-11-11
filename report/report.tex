@@ -348,11 +348,23 @@ sample images of different size of upper left corner of Walsh coefficients here.
 \subsection*{2.3\quad Discrete Fourier Transform (DFT)}
 
 \subsubsection*{2.3.1\quad Definition}
-The 2D \textbf{Discrete Fourier Transform (DFT)} of a $M\times N$ image $g = (g(k,l)_{k,l})$ 
+The 2D \textbf{discrete Fourier Transform (DFT)} of a $M\times N$ image $g = (g(k,l)_{k,l})$ 
 where $k$ = 0,1,\ldots, $M$-1 and $l$ = 0,1,\ldots, $N$-1, is defined as 
 \begin{equation*}
     \tilde{g}(m,n) = \frac{1}{MN}\sum_{k=0}^{M-1}\sum_{l=0}^{N-1}g(k,l)e^{-2\pi j(\frac{km}{M}+\frac{ln}{N})}
 \end{equation*}
+And the inverse discrete Fourier Transform is given by
+\begin{equation*}
+    g(p,q) = \sum_{m=0}^{M-1}\sum_{n=0}^{N-1}\tilde{g}(m,n)e^{2\pi j(\frac{pm}{M}+\frac{qn}{N})}
+\end{equation*}
+Define matrix $U=(U_{x\alpha})_{0\leqslant x,\alpha \leqslant N-1}\in M_{N\times N}(\mathbb{C})$
+by $U_{x\alpha}=\frac{1}{N} e^{-2\pi j\frac{x\alpha}{N}}$, where $0\leqslant x,\alpha \leqslant N-1$\\
+Then U is symmetric and 
+\begin{equation*}
+    \tilde{g} = UgU
+\end{equation*}
+Besides, we can prove that rows of $U$ are mutually orthogonal but not orthonormal.\\
+Then we conclude that $UU^{\ast}=\frac{1}{N}I$
 
 
 \subsubsection*{2.3.2\quad Application}
