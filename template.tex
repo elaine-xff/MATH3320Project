@@ -1,0 +1,290 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{mathtools}
+\usepackage{datetime}
+\usepackage{interval}
+
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+\setlength{\parskip}{1.5em}
+\title{MATH3360 Homework 2 }
+\author{ZHANG Xinfang (Elaine) 1155141566}
+\newdate{date}{09}{10}{2021}
+\date{\displaydate{date}}
+
+\begin{document}
+\maketitle
+%Q1
+    \section*{Q1}
+    \subsection*{(a)}
+    Haar function:
+    \begin{equation*}
+            H_m(t) = H_{2^p+n}(t) = \begin{cases} 
+                2^{\frac{p}{2}} & \text{if $\frac{n}{2^p} \leq t \leq \frac{n+0.5}{2^p}$} \\  
+                -2^{\frac{p}{2}} & \text{if $\frac{n+0.5}{2^p} \leq t \leq \frac{n+1}{2^p}$} \\  
+                0 & \text{elsewhere}  
+                \end{cases}
+    \end{equation*}
+    Then we have:
+    \begin{flalign*}
+        \int_\mathbb{R}[H_m(t)]^2 \,dt &= \int_{\frac{n}{2^p}}^{\frac{n+0.5}{2^p}} 2^p \,dt + \int_{\frac{n+0.5}{2^p}}^{\frac{n+1}{2^p}} 2^p \,dt\\
+            &= \int_{\frac{n}{2^p}}^{\frac{n+1}{2^p}} 2^p \,dt\\
+            &= 2^p[\frac{n+1}{2^p} - \frac{n}{2^p}]\\
+            &= 1.
+    \end{flalign*}
+    Proof done.
+    \subsection*{(b)}
+    \subsubsection*{i.}
+    Note that $m = 2^p+n$ for any $m \in \mathbb{N} \backslash \{0\}$, then we have
+    \begin{flalign*}
+        \langle H_0, H_m \rangle &= \int_\mathbb{R} H_0H_m \\
+            &= \int_{\frac{n}{2^p}}^{\frac{n+0.5}{2^p}} 2^{\frac{p}{2}} \,dt + \int_{\frac{n+0.5}{2^p}}^{\frac{n+1}{2^p}} -2^{\frac{p}{2}} \,dt\\
+            &= 2^{\frac{p}{2}}[\frac{n+0.5}{2^p} - \frac{n}{2^p}] + (-2^{\frac{p}{2}})[\frac{n+1}{2^p} - \frac{n+0.5}{2^p}]\\
+            &= 0.
+    \end{flalign*}
+    Proof done.
+    \subsubsection*{ii.(A)}
+    Note that $m_1 = 2^{p_1}+n_1$ and $m_2 = 2^{p_2}+n_2$, where $0 \neq m_1 < m_2$, $p_1, p_2 \in \mathbb{N} \cup \{0\}$, $n_1 \in \mathbb{Z} \cap [0, 2^{p_1}-1]$ and $n_2 \in \mathbb{Z} \cap [0, 2^{p_2}-1]$.\\
+    Suppose $p_1 = p_2 = p$, then we have $n_1 < n_2$, furthermore $n_1+1 \leq n_2$. Then for piecewise Haar functions $H_{m_1}$ and $H_{m_2}$, the boundary points are ordered as
+    \begin{equation*}
+        \frac{n_1}{2^p} < \frac{n_1+0.5}{2^p} < \frac{n_1+1}{2^p} \leq \frac{n_2}{2^p} < \frac{n_2+0.5}{2^p} < \frac{n_2+1}{2^p}.
+    \end{equation*}
+    Then for the inner product of $H_{m_1}$ and $H_{m_2}$:
+    \begin{flalign*}
+        \langle H_{m_1}, H_{m_2} \rangle &= \int_\mathbb{R} H_{m_1}H_{m_2} \\
+            &= \int_{\frac{n_1}{2^p}}^{\frac{n_1+0.5}{2^p}} H_{m_1}H_{m_2} \,dt + \int_{\frac{n_1+0.5}{2^p}}^{\frac{n_1+1}{2^p}} H_{m_1}H_{m_2} \,dt\\ 
+            &\hspace*{0.5cm}  + \int_{\frac{n_1+1}{2^p}}^{\frac{n_2}{2^p}} H_{m_1}H_{m_2} \,dt + \int_{\frac{n_2}{2^p}}^{\frac{n_2+0.5}{2^p}} H_{m_1}H_{m_2} \,dt\\
+            &\hspace*{0.5cm}  + \int_{\frac{n_2+0.5}{2^p}}^{\frac{n_2+1}{2^p}} H_{m_1}H_{m_2} \,dt\\
+            &= 0+0+0+0+0\\
+            &= 0.
+    \end{flalign*}
+    Proof done.
+    \subsubsection*{ii.(B)}
+    For any integers $a < b$, we must have $a+1 \leq b$.\\
+    Then for $p_1 < p_2$, we have three cases of intersection of non-zero valued interval for $H_{m_1}$ and $H_{m_2}$.
+    \begin{itemize}
+        \item $2^{p_2-p_1}n_1 \leq n_2 < 2^{p_2-p_1}(n_1+0.5)$\\
+        Then we have $n_2+1 \leq 2^{p_2-p_1}(n_1+0.5)$ and then $[\frac{n_2}{2^{p_2}}, \frac{n_2+1}{2^{p_2}}) \subseteq [\frac{n_1}{2^{p_1}}, \frac{n_1+0.5}{2^{p_1}})$.
+        \item $2^{p_2-p_1}(n_1+0.5) \leq n_2 < 2^{p_2-p_1}(n_1+1)$\\
+        Then we have $n_2+1 \leq 2^{p_2-p_1}(n_1+1)$ and then $[\frac{n_2}{2^{p_2}}, \frac{n_2+1}{2^{p_2}}) \subseteq [\frac{n_1+0.5}{2^{p_1}}, \frac{n_1+1}{2^{p_1}})$.
+        \item $n_2 < 2^{p_2-p_1}n_1$ or $n_2 \geq 2^{p_2-p_1}(n_1+1)$
+        \subitem $n_2 < 2^{p_2-p_1}n_1$, we have $n_2+1 \leq 2^{p_2-p_1}n_1$. 
+        \subitem $n_2 \geq 2^{p_2-p_1}(n_1+1)$, we have $n_2+1 \geq 2^{p_2-p_1}(n_1+1)$.\\
+        Therefore, $[\frac{n_2}{2^{p_2}}, \frac{n_2+1}{2^{p_2}}) \cap [\frac{n_1}{2^{p_1}}, \frac{n_1+1}{2^{p_1}}) = \emptyset$
+    \end{itemize}
+Hence, in any case, $H_{m_1}(t) = c$ for $c \in \mathbb{R}$ and $t \in [\frac{n_2}{2^{p_2}}, \frac{n_2+1}{2^{p_2}})$.
+\begin{flalign*}
+    \langle H_{m_1}, H_{m_2} \rangle &= \int_\mathbb{R} H_{m_1}H_{m_2} \\
+        &= c\int_{\frac{n_2}{2^{p_2}}}^{\frac{n_2+1}{2^{p_2}}} H_{m_2} \,dt \\
+        &= c\int_{\frac{n_2}{2^{p_2}}}^{\frac{n_2+0.5}{2^{p_2}}} 2^{\frac{p_2}{2}} \,dt + c\int_{\frac{n_2+0.5}{2^{p_2}}}^{\frac{n_2+1}{2^{p_2}}} -2^{\frac{p_2}{2}} \,dt \\
+        &= c[\frac{n_2+0.5}{2^{p_2}} - \frac{n_2}{2^{p_2}}]2^{\frac{p_2}{2}} - c[\frac{n_2+1}{2^{p_2}} - \frac{n_2+0.5}{2^{p_2}}]2^{\frac{p_2}{2}}\\
+        &= 0.
+\end{flalign*}
+Proof done.
+%Q2
+    \section*{Q2}
+    \subsection*{(a)}
+    The Walsh function is defined recursively as follows:\\
+    \hspace*{1cm} $W_{2j+q}(t) = (-1)^{\floor*{\frac{j}{2}}+q} \{W_j(2t)+(-1)^{j+q}W_j(2t-1)\}$,\\
+    where $q$ = 0 or 1; $j$ = 0, 1, 2, \dots and $W_0(t) = \begin{cases}
+        1 & \text{if $0 \leq t < 1$}\\
+        0 & \text{elsewhere}
+    \end{cases}$\\
+    Firstly, we want to prove for any Walsh function, the non-zero valued interval is $[0, 1)$ by induction.\\
+    STEP 1: It's clear that $W_0$ satisfies the statement.\\
+    STEP 2: Suppose $W_k$ satisfies the statement, which is to say $W_k(t) = 0$ for $t < 0$ or $t \geq 1$.\\
+    STEP 3: For $W_{2k}$:\\
+    if $t < 0$, we have $2t < 0$ and $2t-1 < 0$, then $W_{2k}(t) = (-1)^{\floor*{\frac{j}{2}}} \{W_k(2t)+(-1)^{j}W_k(2t-1)\} = (-1)^{\floor*{\frac{j}{2}}} \{0+(-1)^{j}0\} = 0$;\\
+    if $t \geq 1$, we have $2t \geq 2 >1$ and $2t-1 \geq 1$, then $W_{2k}(t) = (-1)^{\floor*{\frac{j}{2}}} \{W_k(2t)+(-1)^{j}W_k(2t-1)\} = (-1)^{\floor*{\frac{j}{2}}} \{0+(-1)^{j}0\} = 0$.\\
+    Hence, $W_{2k}$ satisfies the statement, similarly, $W_{2k+1}$ satisfies the statement.\\
+    Therefore, by induction, we can conclude that for any Walsh function, the non-zero valued interval is $[0, 1)$.\\
+    Secondly, we want to prove $\int_\mathbb{R} [W_{m}(t)]^2 \, dt = 1$ for any $m \in \mathbb{N} \cup \{0\}$ by induction.\\
+    STEP 1: $\int_\mathbb{R} [W_{0}(t)]^2 \, dt = \int _0^1 1 \, dt = 1$, which satisfies the statement.\\
+    STEP 2: Suppose $W_k$ satisfies the statement, which is to say $\int_\mathbb{R} [W_{k}(t)]^2 \, dt = 1$.\\
+    STEP 3: For $W_{2k}$, $W_{2k}(t) = (-1)^{\floor*{\frac{k}{2}}} \{W_k(2t)+(-1)^{k}W_k(2t-1)\}$.\\
+            Since $W_k(2t)W_k(2t-1)=0$ for any $t$, we have:
+    \begin{flalign*}
+        \int_\mathbb{R} [W_{2k}(t)]^2 \, dt &= \int_0^1 \{(-1)^{\floor*{\frac{k}{2}}} \{W_k(2t)+(-1)^{k}W_k(2t-1)\}\}^2 \, dt \\
+                                            &= \int_0^1 \{W_k(2t)+(-1)^{k}W_k(2t-1)\}^2 \, dt\\
+                                            &= \int_0^1 W_k^2(2t) + W_k^2(2t-1) + (-1)^{2k}W_k(2t)W_k(2t-1) \, dt\\
+                                            &= \int_0^1 W_k^2(2t) \, dt + \int_0^1 W_k^2(2t-1) \, dt + \int_0^1 (-1)^{2k}W_k(2t)W_k(2t-1) \, dt\\
+                                            &= \frac{1}{2}\int_0^1 W_k^2(2t) \, d(2t) + \frac{1}{2}\int_0^1 W_k^2(2t-1) \, d(2t-1)\\
+                                            &= \frac{1}{2} + \frac{1}{2}\\
+                                            &= 1.
+    \end{flalign*}
+    Hence, $\int_\mathbb{R} [W_{2k}(t)]^2 \, dt = 1$, similarly, $\int_\mathbb{R} [W_{2k+1}(t)]^2 \, dt = 1$.\\
+    Therefore, by induction, $\int_\mathbb{R} [W_{m}(t)]^2 \, dt = 1$ for any $m \in \mathbb{N} \cup \{0\}$.\\
+    Proof done.
+    \subsection*{(b)}
+    \subsubsection*{i.}
+    Since $j_1 = j_2 = j$ and $m_1 < m_2$, we can know that $q_1 = 0$ and $q_2 =1$. Then $m_1 = 2j$ and $m_2 = 2j+1$.\\
+    \begin{flalign*}
+        \langle W_{m_1}, W_{m_2} \rangle &= \int_0^1 W_{m_1}(t)W_{m_2}(t) \, dt \\
+                                         &= \int_0^1 W_{2j}(t)W_{2j+1}(t) \, dt \\
+                                         &= \int_0^1 W_j^2(2t-1) - W_j^2(2t) \, dt\\
+                                         &= \frac{1}{2}\int_0^1 W_j^2(2t-1) \, d(2t-1) - \frac{1}{2}\int_0^1 W_j^2(2t) \, d(2t)\\
+                                         &= \frac{1}{2} - \frac{1}{2}\\
+                                         &= 0.
+    \end{flalign*}
+    Proof done.
+    \subsubsection*{ii.}
+    Note that $W_{2j+q}(t) = (-1)^{\floor*{\frac{j}{2}}+q} \{W_j(2t)+(-1)^{j+q}W_j(2t-1)\}$,\\
+    $W_0(t) = \begin{cases}
+        1 & \text{if $0 \leq t < 1$}\\
+        0 & \text{elsewhere}
+    \end{cases}$ and $W_1(t) = \begin{cases}
+        -1 & \text{if $0 \leq t < \frac{1}{2}$}\\
+        1 & \text{if $\frac{1}{2} \leq t < 1$}\\
+        0 & \text{elsewhere}
+    \end{cases}$,\\ we prove this proposition by induction on $n$ for $j_2 \leq n$, $n \in \mathbb{N}$ below.\\
+    Before induction, we prove a lemma: if $m_1 < m_2$, $m_1 = 2j_1+q1$, $m_2 = 2j_2+q1$ and $j_1 < j_2$, then 
+    $\langle W_{m_1}, W_{m_2} \rangle = (-1)^{\floor*{\frac{j_1}{2}}+\floor*{\frac{j_2}{2}}}[(-1)^{q_1+q_2}+(-1)^{j_1+j_2}] \langle W_{j_1}, W_{j_2} \rangle$.
+
+    Proof of Lemma:\begin{flalign*}\langle W_{m_1}, W_{m_2} \rangle &= \langle W_{2j_1+q_1}, W_{2j_2+q_2} \rangle\\
+                                         &= \int_0^1 W_{2j_1+q_1}(t)W_{2j_2+q_2}(t) \, dt\\
+                                         &= \int_0^1 (-1)^{q_1+q_2+\floor*{\frac{j_1}{2}}+\floor*{\frac{j_2}{2}}}\{W_{j_1}(2t)W_{j_2}(2t)+(-1)^{j_2+q_2}W_{j_1}(2t)W_{j_2}(2t-1)\\
+                                         &\hspace*{1cm}+ (-1)^{j_1+q_1}W_{j_2}(2t)W_{j_1}(2t-1)+(-1)^{j_1+j_2+q_1+q_2}W_{j_1}(2t-1)W_{j_2}(2t-1)\} \, dt\\
+                                         &= \int_0^1 (-1)^{\floor*{\frac{j_1}{2}}+\floor*{\frac{j_2}{2}}+q_1+q_2}\{W_{j_1}(2t)W_{j_2}(2t)\\
+                                         &\hspace*{0.5cm} +(-1)^{j_1+j_2++q_1+q_2}W_{j_1}(2t-1)W_{j_2}(2t-1)\} \, dt\\
+                                         &= (-1)^{\floor*{\frac{j_1}{2}}+\floor*{\frac{j_2}{2}}+q_1+q_2}\int_0^{\frac{1}{2}} W_{j_1}(2t)W_{j_2}(2t) \, dt \\
+                                         &\hspace*{0.5cm} + (-1)^{\floor*{\frac{j_1}{2}}+\floor*{\frac{j_2}{2}}+j_1+j_2}\int_{\frac{1}{2}}^1 W_{j_1}(2t-1)W_{j_2}(2t-1) \, dt\\
+                                         &= (-1)^{\floor*{\frac{j_1}{2}}+\floor*{\frac{j_2}{2}}+q_1+q_2}\int_0^1 W_{j_1}(t)W_{j_2}(t) \, dt \\
+                                         &\hspace*{0.5cm} + (-1)^{\floor*{\frac{j_1}{2}}+\floor*{\frac{j_2}{2}}+j_1+j_2} \int_0^1 W_{j_1}(t)W_{j_2}(t) \, dt\\
+                                         &= (-1)^{\floor*{\frac{j_1}{2}}+\floor*{\frac{j_2}{2}}}[(-1)^{q_1+q_2}+(-1)^{j_1+j_2}] \langle W_{j_1}, W_{j_2} \rangle.
+    \end{flalign*}\hspace*{0.5cm}Lemma proof done.\\
+    Induction below:\\
+    STEP 1: For $n=1$: since $j_1 < j_2 \leq 1$, we have $j_1 = 0$ and $j_2 = 1$.\\
+    Then 
+    \begin{flalign*}
+        \langle W_{m_1}, W_{m_2} \rangle &= \langle W_{q_1}, W_{2+q_2} \rangle\\
+                                         &= [(-1)^{q_1+q_2}-1] \langle W_{0}, W_{1} \rangle\\
+                                         &= [(-1)^{q_1+q_2}-1]\int_0^1W_1(t) \, dt \\
+                                         &= 0.
+    \end{flalign*}
+    STEP 2: Suppose the proposition is true for $j_1 < j_2 \leq k$, $k \in \mathbb{N} \cup \{0\}$.\\
+    Then we have $\langle W_{2j_1+q_1}, W_{2j_2+q_2} \rangle = 0$ for any $j_1 < j_2 \leq k$.\\
+    STEP 3: Therefore, for any $j_1 < j_2 \leq k+1$: write $j_1 = 2a_1+b1$ and $j_2 = 2a_2+b2$, then we have $a_1, a_2 < k$.
+    \begin{flalign*}
+        \langle W_{m_1}, W_{m_2} \rangle &= \langle W_{2j_1+q_1}, W_{2j_2+q_2} \rangle\\
+                                         &= (-1)^{\floor*{\frac{j_1}{2}}+\floor*{\frac{j_2}{2}}}[(-1)^{q_1+q_2}+(-1)^{j_1+j_2}] \langle W_{j_1}, W_{j_2} \rangle\\
+                                         &= c_1c_2\langle W_{a_1}, W_{a_2} \rangle
+    \end{flalign*}where $c_1 = (-1)^{\floor*{\frac{j_1}{2}}+\floor*{\frac{j_2}{2}}}[(-1)^{q_1+q_2}+(-1)^{j_1+j_2}]$,\\
+    \hspace*{1.2cm}$c_2 = (-1)^{\floor*{\frac{a_1}{2}}+\floor*{\frac{a_2}{2}}}[(-1)^{b_1+b_2}+(-1)^{a_1+a_2}]$.\\
+    From STEP 2,\\ 
+    for $a_1 \neq a_2$, $\langle W_{a_1}, W_{a_2} \rangle = 0$, then $\langle W_{m_1}, W_{m_2} \rangle = 0$;\\
+    for $a_1 = a_2$, since $j_1 < j_2$, then $b_1 = 0$, $b_2 = 1$, we have 
+    \begin{flalign*}
+        c_2 &= (-1)^{\floor*{\frac{a_1}{2}}+\floor*{\frac{a_2}{2}}}[(-1)^{b_1+b_2}+(-1)^{a_1+a_2}]\\
+            &= (-1)^{2\floor*{\frac{a_1}{2}}}[(-1)^{1}+(-1)^{2a_1}]\\
+            &= -1+1\\
+            &= 0.\\
+        \langle W_{m_1}, W_{m_2} \rangle &= c_1c_2\langle W_{a_1}, W_{a_2} \rangle\\ &= 0.
+    \end{flalign*}
+    Then $\langle W_{m_1}, W_{m_2} \rangle = 0$ for $j_1 < j_2 \leq k+1$.\\
+    Therefore, by mathematical induction, $\langle W_{m_1}, W_{m_2} \rangle = 0$ for any $j_1 < j_2$.
+%Q3
+    \section*{Q3}
+    \subsection*{(a)}
+    For $4 \times 4$ matrix, define a matrix $U$ by $U_{x\alpha} = \frac{1}{4} e^{-2 \pi j \frac{x\alpha}{4}}$.\\
+    Then $U = \frac{1}{4} \begin{pmatrix} 1&1&1&1 \\ 1&-j&-1&j \\ 1&-1&1&-1 \\ 1&j&-1&-j \end{pmatrix}$. Then DFT of an image $g$ is $UgU$.\\
+    DFT of $A$ is $M = UAU = \frac{1}{8} \begin{pmatrix} 4&0&0&0 \\ 0&-j&1+j&-1 \\ 0&1+j&2&1-j \\ 0&-1&1-j&j \end{pmatrix}$.\\
+    DFT of $B$ is $N = UBU = \frac{1}{8} \begin{pmatrix} 2&-1-j&0&-1+j \\ -1-j&j&0&1 \\ 0&0&0&0 \\ -1+j&1&0&-j \end{pmatrix}$.
+    \subsection*{(b)}
+    After discarding 4 smallest non-zero coefficients in DFT of A, we have the new DFT of A is $C = \frac{1}{8} \begin{pmatrix} 4&0&0&0 \\ 0&0&1+j&0 \\ 0&1+j&2&1-j \\ 0&0&1-j&0 \end{pmatrix}$.\\
+    Denote the reconstructed $A$ as $D$, then\\
+    $D = (4U^*)C(4U^*) = 16U^*CU^* = \frac{1}{4} \begin{pmatrix}
+        5&-1&3&1 \\ -1&5&1&3 \\ 3&1&1&3 \\ 1&3&3&1
+    \end{pmatrix}$.
+    \subsection*{(c)} 
+    $A*B = \begin{pmatrix} 2&2&2&2 \\ 2&1&2&3 \\ 2&2&2&2 \\ 2&3&2&1 \end{pmatrix}$.
+    $\widehat{A*B} = U(A*B)U = \frac{1}{4} \begin{pmatrix} 8&0&0&0 \\ 0&1&0&-1 \\ 0&0&0&0 \\ 0&-1&0&1 \end{pmatrix}$.\\
+    The point-wise product of $\hat{A}$ and $\hat{B}$ is $\frac{1}{64}\begin{pmatrix}
+        8&0&0&0 \\ 0&1&0&-1 \\ 0&0&0&0 \\ 0&-1&0&1
+    \end{pmatrix}$.\\
+    Therefore, $\widehat{A*B}(p, q) = 16\hat{A}(p, q)\hat{B}(p, q)$ for all $p$, $q$.
+%Q4
+    \section*{Q4}
+    \subsection*{(a)}
+    For the DFT formula, we multiply both sides by $\frac{1}{N}e^{-2 \pi j(\frac{pm+qn}{N})}$ and sum $m$ over 0 to $N-1$, and $n$ over 0 to $N-1$, then 
+    \begin{flalign*}
+        & \frac{1}{N} \sum_{m=0}^{N-1} \sum_{n=0}^{N-1} \hat{f}(m, n) e^{-2 \pi j(\frac{pm+qn}{N})} \\
+        &= \frac{1}{N^2} \sum_{k=0}^{N-1} \sum_{l=0}^{N-1} \sum_{m=0}^{N-1} \sum_{n=0}^{N-1} f(k, l) e^{2 \pi j(\frac{(km+ln)-(pm+qn)}{N})}\\
+        &= \frac{1}{N^2} \sum_{k=0}^{N-1} \sum_{l=0}^{N-1} f(k, l) \sum_{m=0}^{N-1} e^{2 \pi j(\frac{(k-p)m}{N})} \sum_{n=0}^{N-1} e^{2 \pi j(\frac{(l-q)n}{N})}.\hspace*{1cm}(*)
+    \end{flalign*}
+    For $s \in \mathbb{Z} \backslash \{0\}$ and $t \in \mathbb{Z}$,
+    \begin{equation*}
+        \sum_{m=0}^{s-1} e^{2 \pi j \frac{tm}{s}} = s \textbf{1}_{s \mathbb{Z}}(t) = \begin{cases}
+            s & \text{if $t \in s\mathbb{Z}$}\\
+            0 & \text{otherwise}
+        \end{cases}
+    \end{equation*}
+    Therefore, R.H.S of (*):
+    \begin{flalign*}
+        &\frac{1}{N^2} \sum_{k=0}^{N-1} \sum_{l=0}^{N-1} f(k, l) M\textbf{1}_{N\mathbb{Z}}(k-p) M\textbf{1}_{N\mathbb{Z}}(l-q)\\
+        &= \sum_{k=0}^{N-1} \sum_{l=0}^{N-1} f(k, l)\delta{(k-p)}\delta{(l-q)} = f(p, q)
+    \end{flalign*}
+    Hence, the inverse DFT is defined by 
+    \begin{equation*}
+        f(p, q) = \frac{1}{N} \sum_{m=0}^{N-1} \sum_{n=0}^{N-1} \hat{f}(m, n) e^{-2 \pi j(\frac{pm+qn}{N})}.
+    \end{equation*}
+    \subsection*{(b)}
+    Define $U_{x \alpha} = \frac{1}{\sqrt{N}} e^{2 \pi j \frac{x \alpha}{N}}$, where $0 \leq x$, $\alpha \leq N-1$ and $U = (U_{x \alpha})_{0 \leq x,  \alpha \leq N-1}$.
+    Next, we want to prove $U$ is unitary.\\
+    Note that $U_{mn} = \frac{1}{\sqrt{N}} e^{2 \pi j \frac{mn}{N}}$, and $U^*_{nm} = \frac{1}{\sqrt{N}} e^{-2 \pi j \frac{mn}{N}}$.\\
+    For $0 \leq a$, $b \leq N-1$, $a, b \in \mathbb{Z}$, if $a-b = t\mathbb{Z}$ for $t \in \mathbb{Z}$, we can know that $a - b = 0$. 
+    \begin{flalign*}
+        UU^*(a, b) &= \frac{1}{N} \sum_{d=0}^{N-1} e^{2 \pi j \frac{ad}{N}} e^{- \pi j \frac{bd}{N}}\\
+                   &= \frac{1}{N} \sum_{d=0}^{N-1} e^{2 \pi j \frac{(a-b)d}{N}}\\
+                   &= \frac{1}{N} N\textbf{1}_{N\mathbb{Z}}(a-b)\\
+                   &= \textbf{1}_{N\mathbb{Z}}(a-b)\\
+                   &= \begin{cases}
+                       1 & \text{if $a=b$}\\
+                       0 & \text{otherwise}
+                   \end{cases}
+    \end{flalign*}
+    Hence, $UU^* = I$ and $U^*U = I$, which is to say $U$ is unitary.
+    \subsection*{(c)}
+    For $N \times N$ images $g$ and $f$, assuming that they are periodically extended, the convolution of them is 
+    \begin{equation*}
+        v(n, m) = \sum_{n'=0}^{N-1} \sum_{m'=0}^{N-1} g(n-n', m-m')f(n', m')
+    \end{equation*}
+    Then the DFT of $v$:
+    \begin{flalign*}
+        & \frac{1}{N} \sum_{n=0}^{N-1} \sum_{m=0}^{N-1} v(n, m) e^{2 \pi j \frac{pn+qm}{N}}\\
+        &= \frac{1}{N} \sum_{n'=0}^{N-1} \sum_{m'=0}^{N-1} \sum_{n=0}^{N-1} \sum_{m=0}^{N-1} g(n-n', m-m')f(n', m') e^{2 \pi j \frac{pn+qm}{N}}\\
+        &= \frac{1}{N} \sum_{n'=0}^{N-1} \sum_{m'=0}^{N-1}f(n', m')e^{2 \pi j \frac{pn'+qm'}{N}}  \sum_{n''=-n'}^{N-1-n'} \sum_{m''=-m'}^{N-1-m'} g(n'', m'') e^{2 \pi j \frac{pn''+qm''}{N}}\\
+        &= \hat{f}(p, q)\sum_{n''=-n'}^{N-1-n'} \sum_{m''=-m'}^{N-1-m'} g(n'', m'') e^{2 \pi j \frac{pn''+qm''}{N}}
+    \end{flalign*}
+    Since $g$ is periodically extended, $g(n-N, m) = g(n, m)$ and $g(n, m-N) = g(n, m)$.
+    Then
+    \begin{flalign*}
+        & \sum_{n''=-n'}^{N-1-n'} \sum_{m''=-m'}^{N-1-m'} g(n'', m'') e^{2 \pi j \frac{pn''+qm''}{N}}\\
+        &= \sum_{m''=-m'}^{N-1-m'} e^{2 \pi j \frac{qm''}{N}} \sum_{n''=-n'}^{N-1-n'} g(n'', m'') e^{2 \pi j \frac{pn''}{N}}\\
+        &= \sum_{m''=-m'}^{N-1-m'} e^{2 \pi j \frac{qm''}{N}} \sum_{n''=-n'}^{-1} g(n'', m'') e^{2 \pi j \frac{pn''}{N}} 
+        + \sum_{m''=-m'}^{N-1-m'} e^{2 \pi j \frac{qm''}{N}} \sum_{n''=0}^{N-1-n'} g(n'', m'') e^{2 \pi j \frac{pn''}{N}}
+    \end{flalign*}
+    Then 
+    \begin{flalign*}
+        \sum_{n''=-n'}^{-1} g(n'', m'') e^{2 \pi j \frac{pn''}{N}}
+        &= \sum_{n'''=N-n'}^{N-1} g(n'''-N, m'') e^{2 \pi j \frac{pn'''}{N}} e^{-2 \pi jp}\\
+        &= \sum_{n'''=N-n'}^{N-1} g(n''', m'') e^{2 \pi j \frac{pn'''}{N}}
+    \end{flalign*}
+    After doing the similar operation on $m''$, we have
+    \begin{flalign*}
+        & \sum_{n''=-n'}^{N-1-n'} \sum_{m''=-m'}^{N-1-m'} g(n'', m'') e^{2 \pi j \frac{pn''+qm''}{N}}\\
+        &= \sum_{n'''=N-n'}^{2N-1-n'} \sum_{m'''=N-m'}^{2N-1-m'} g(n''', m''') e^{2 \pi j \frac{pn'''+qm'''}{N}}\\
+        &= N \hat{g}(p, q)
+    \end{flalign*}
+    Therefore,
+    \begin{equation*}
+        \hat{v}(p, q) = N \hat{g}(p, q) \hat{f}(p, q).
+    \end{equation*}
+    \subsection*{(d)}
+    Let $\tilde{g}$ be the shifted image. $\tilde{g}(k, l) = g(k-k_0, l-l_0)$, for $0 \leq k$, $l \leq N-1$.
+    Then 
+    \begin{flalign*}
+        \hat{\tilde{g}}(m, n) &= \frac{1}{N} \sum_{k=0}^{N-1} \sum_{l=0}^{N-1} g(k-k_0, l-l_0) e^{2 \pi j \frac{km+ln}{N}}\\
+                              &= \frac{1}{N} \sum_{k'=-k_0}^{N-1-k_0} \sum_{l'=-l_0}^{N-1-l_0} g(k', l') e^{2 \pi j \frac{k'm+l'n}{N}} e^{2 \pi j \frac{k_0m+l_0n}{N}}\\
+                              &= \hat{g}(m, n)e^{2 \pi j \frac{k_0m+l_0n}{N}}
+    \end{flalign*}
+    Therefore, $ \hat{\tilde{g}}(m, n) = \hat{g}(m, n)e^{2 \pi j \frac{k_0m+l_0n}{N}}$.
+\end{document}
