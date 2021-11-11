@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.19)  11 NOV 2021 22:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.19)  11 NOV 2021 22:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -671,13 +671,18 @@ Package pdftex.def Info: balloon_HaarTo_7.png  used on input line 291.
 File: balloon_HaarTo_10.png Graphic file (type png)
 <use balloon_HaarTo_10.png>
 Package pdftex.def Info: balloon_HaarTo_10.png  used on input line 300.
-(pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
+(pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 <balloon_orig.png, id=74, 433.62pt x 289.08pt>
 File: balloon_orig.png Graphic file (type png)
 <use balloon_orig.png>
 Package pdftex.def Info: balloon_orig.png  used on input line 304.
-(pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
- [8 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/haar_code.png>]
+(pdftex.def)             Requested size: 233.0277pt x 155.351pt.
+
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 300--305
+ [][][] 
+ []
+
+[8 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/haar_code.png>]
 <balloon_walshTo2.png, id=79, 433.62pt x 289.08pt>
 File: balloon_walshTo2.png Graphic file (type png)
 <use balloon_walshTo2.png>
@@ -722,7 +727,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  85i,18n,133p,1073b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf (10 pages, 1010263 bytes).
+Output written on /Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf (10 pages, 1010276 bytes).
 PDF statistics:
  156 PDF objects out of 1000 (max. 8388607)
  73 compressed objects within 1 object stream

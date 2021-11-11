@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1636639509 "/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.tex" "/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf" "report" 1636639510
-  "/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.aux" 1636639510 6454 b3b6efaed6c596fe61a4332a5e8dbafd ""
-  "/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.tex" 1636639509 13963 0a4c28d9f4e1007ed1a5f9d88efecf4c ""
+["pdflatex"] 1636639679 "/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.tex" "/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf" "report" 1636639681
+  "/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.aux" 1636639681 6454 b3b6efaed6c596fe61a4332a5e8dbafd ""
+  "/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.tex" 1636639679 13968 52ea675208c4c8cdb172176d623580c0 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -124,12 +124,12 @@
   "lenna_auto_{k}.png" 1636468770 63362 2775568978317a6d1c764713b0f31d9d ""
   "lenna_orig.png" 1636468763 63325 3dc54d2d1f09ea8ddaaa7a4bb20bdf3f ""
   "library.png" 1636635307 43280 ed99194f9220ecc4b566d65a6b945311 ""
-  "report.aux" 1636639510 6454 b3b6efaed6c596fe61a4332a5e8dbafd "pdflatex"
-  "report.tex" 1636639509 13963 0a4c28d9f4e1007ed1a5f9d88efecf4c ""
+  "report.aux" 1636639681 6454 b3b6efaed6c596fe61a4332a5e8dbafd "pdflatex"
+  "report.tex" 1636639679 13968 52ea675208c4c8cdb172176d623580c0 ""
   "rgb2gray.png" 1636635313 87589 b9a1722dad2f3881e2d61c5253071d79 ""
   (generated)
-  "report.pdf"
-  "report.aux"
   "/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf"
-  "/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.log"
   "report.log"
+  "report.aux"
+  "/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.log"
+  "report.pdf"
