@@ -7,6 +7,7 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{geometry}
+\usepackage[makeroom]{cancel}
 
 \geometry{a4paper,scale=0.78}
 \DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
@@ -165,17 +166,15 @@ Then the $m$-th row, $n$-th column entry of $D$ is given by
     D_{mn} = \sum_{j=k+1}^{r}\sigma_j^2u_{im}v_{in}
 \end{equation*}
 where $\vec{u_i}= \left( \begin{array}{c} u_{i1} \\ \vdots \\ u_{iM} \end{array} \right)$,
-$\vec{v_i}= \left( \begin{array}{c} v_{i1} \\ \vdots \\ v_{iN} \end{array} \right)$. Then,
-\begin{equation*}
-    \begin{flalign}
-        {\| D \|}_F^2 &= \sum\limits_{m}\sum\limits_{n} D_{mn}^2\\
-        &= \sum\limits_{m}\sum\limits_{n} \left(\sum\limits_{i=k+1}^{r}\sigma_i^2u_{im}^2v_{in}^2 + 2\sum\limits_{i=k+1}^{r}\sum\limits_{j=k+1 \atop j\neq i}^{r}\sigma_i\sigma_j^u_{im}v_{in}u_{jm}v_{jn}\right)\\
-        &= \sum\limits_{i=k+1}^{r}\sigma_i^2\sum\limits_{m}u_{im}^2\sum\limits_{n}v_{in}^2+ 2\sum\limits_{j=k+1 \atop j\neq i}^{r}\sigma_i\sigma_j\sum\limits_{m}u_{im}u_{jm}\sum\limits_{n}v_{in}v_{jn}\\ 
-        &= \sum\limits_{i=k+1}^{r}\sigma_i^2
-    \end{flalign}
-\end{equation*}
-Therefore, we prove that \\
-\textbf{Sum of square error of the approximation = Sum of omitted eigenvalues}.
+$\vec{v_i}= \left(\begin{array}{c} v_{i1} \\ \vdots \\ v_{iN} \end{array} \right)$. Then,
+\begin{flalign*}
+        {\| D \|}_F^2 &= \sum\limits_{m} \sum\limits_{n} D_{mn}^2 &\\
+        &= \sum\limits_{m}\sum\limits_{n}\left(\sum\limits_{i=k+1}^{r}\sigma_i^2u_{im}^2v_{in}^2 + 2\sum\limits_{i=k+1}^{r}\sum\limits_{\substack{j=k+1\\j\neq i}}^{r} \sigma_i\sigma_j u_{im}v_{in}u_{jm}v_{jn}\right) &\\
+        &= \sum\limits_{i=k+1}^{r}\sigma_i^2 \cancelto{1}{\sum\limits_{m}u_{im}^2} \cancelto{1}{\sum\limits_{n}v_{in}^2} + 2\sum\limits_{\substack{j=k+1\\j\neq i}}^{r} \sigma_i\sigma_j\cancelto{0}{\sum\limits_{m}u_{im}u_{jm}}\cancelto{0}{\sum\limits_{n}v_{in}v_{jn}} &\\ 
+        &= \sum\limits_{i=k+1}^{r}\sigma_i^2 &
+\end{flalign*}
+Therefore, we prove that\\
+\textbf{ Sum of square error of the approximation = Sum of omitted eigenvalues}.
 
 
 \subsection*{2.2\quad Haar Transform and Walsh Transform}
