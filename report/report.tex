@@ -179,6 +179,50 @@ Therefore, we prove that\\
 
 \subsection*{2.2\quad Haar Transform and Walsh Transform}
 
+\subsubsection*{2.2.1 \quad Haar Function and Haar Transform}
+Haar function:
+    \begin{equation*}
+            H_m(t) = H_{2^p+n}(t) = \begin{cases} 
+                2^{\frac{p}{2}} & \text{if $\frac{n}{2^p} \leq t \leq \frac{n+0.5}{2^p}$} \\  
+                -2^{\frac{p}{2}} & \text{if $\frac{n+0.5}{2^p} \leq t \leq \frac{n+1}{2^p}$} \\  
+                0 & \text{elsewhere}  
+                \end{cases}
+    \end{equation*}
+\hspace*{1cm} where $p$ = 1, 2, \ldots; $n$ = 0, 1, 2, \ldots, $2^{p-1}$
+\begin{flushleft}
+Based on the Haar function, Haar Transform of $N\times N$ image is defined as follow.\\
+Let $H(k,i) \equiv H_{k}\left(\frac{i}{N}\right)$ where $k,i$ = 0, 1, 2, \ldots, $N$-1 \\
+We obtain the Haar Transfrom matrix:
+\begin{equation*}
+ \tilde{H} \equiv\frac{1}{\sqrt{N}}H, \quad H \equiv(H (k,i))_{0\leqslant k,i \leqslant N-1}
+\end{equation*}
+The Haar Transfrom of $f \in M_{n\times n}$ is defined as:
+\begin{equation*}
+    g = \tilde{H}f\tilde{H}^T
+\end{equation*}
+\end{flushleft} 
+
+\subsubsection*{2.2.2 \quad Walsh Function and Walsh Transform}
+Walsh function is defined recursively as follows: 
+\begin{equation*}
+    W_{2j+q}(t) = (-1)^{\floor*{\frac{j}{2}}+q} \{W_j(2t)+(-1)^{j+q}W_j(2t-1)\}
+\end{equation*} 
+where $q$ = 0 or 1; $j$ = 0, 1, 2, \dots and $W_0(t) = \begin{cases}
+        1 & \text{if $0 \leq t < 1$}\\
+        0 & \text{elsewhere}
+    \end{cases}$\\
+\begin{flushleft}
+Based on Walsh function, Walsh Transfrom of $N\times N$ image is defined as follow.\\
+Let $W(k,i) \equiv H_{k}\left(\frac{i}{N}\right)$ where $k,i$ = 0, 1, 2, \ldots, $N$-1 \\
+We obtain the Walsh Transfrom matrix:
+\begin{equation*}
+ \tilde{W} \equiv\frac{1}{\sqrt{N}}W, \quad W \equiv(W (k,i))_{0\leqslant k,i \leqslant N-1}
+\end{equation*}
+The Walsh Transfrom of $f \in M_{n\times n}$ is defined as:
+\begin{equation*}
+    g = \tilde{W}f\tilde{W}^T
+\end{equation*}
+\end{flushleft} 
 
 \subsection*{2.3\quad Discrete Fourier Transform (DFT)}
 
