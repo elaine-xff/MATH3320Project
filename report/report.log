@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.21)  11 NOV 2021 20:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.19)  11 NOV 2021 20:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/zhangyifan/Documents/MATH3320Project/report/report.tex
-(/Users/zhangyifan/Documents/MATH3320Project/report/report.tex
+**/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.tex
+(/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -259,7 +259,7 @@ Package: cancel 2013/04/12 v2.2 Cancel math terms
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count309
 \l__pdf_internal_box=\box52
-) (/Users/zhangyifan/Documents/MATH3320Project/report/report.aux
+) (/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.aux
 
 LaTeX Warning: Label `ref_label2' multiply defined.
 
@@ -426,105 +426,111 @@ Overfull \hbox (3.26385pt too wide) in paragraph at lines 56--67
 []\OT1/cmr/m/n/12 ,
  []
 
-<dora_10.png, id=13, 433.62pt x 289.08pt>
+<library.png, id=13, 526.96875pt x 244.915pt>
+File: library.png Graphic file (type png)
+<use library.png>
+Package pdftex.def Info: library.png  used on input line 79.
+(pdftex.def)             Requested size: 466.0554pt x 216.61708pt.
+[3]
+<dora_10.png, id=25, 433.62pt x 289.08pt>
 File: dora_10.png Graphic file (type png)
 <use dora_10.png>
-Package pdftex.def Info: dora_10.png  used on input line 83.
+Package pdftex.def Info: dora_10.png  used on input line 90.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
-<dora_40.png, id=15, 433.62pt x 289.08pt>
+<dora_40.png, id=26, 433.62pt x 289.08pt>
 File: dora_40.png Graphic file (type png)
 <use dora_40.png>
-Package pdftex.def Info: dora_40.png  used on input line 87.
+Package pdftex.def Info: dora_40.png  used on input line 94.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (19.58311pt too wide) in paragraph at lines 83--87
+Overfull \hbox (19.58311pt too wide) in paragraph at lines 90--94
  [][][] 
  []
 
-<dora_100.png, id=16, 433.62pt x 289.08pt>
+<dora_100.png, id=27, 433.62pt x 289.08pt>
 File: dora_100.png Graphic file (type png)
 <use dora_100.png>
-Package pdftex.def Info: dora_100.png  used on input line 91.
+Package pdftex.def Info: dora_100.png  used on input line 98.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
-<dora_orig.png, id=17, 433.62pt x 289.08pt>
+<dora_orig.png, id=28, 433.62pt x 289.08pt>
 File: dora_orig.png Graphic file (type png)
 <use dora_orig.png>
-Package pdftex.def Info: dora_orig.png  used on input line 95.
+Package pdftex.def Info: dora_orig.png  used on input line 102.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 91--96
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 98--103
  [][][] 
  []
 
-[3]
-<SVD_code.png, id=28, 729.72626pt x 320.19624pt>
+[4 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/library.png>]
+<SVD_code.png, id=33, 729.72626pt x 320.19624pt>
 File: SVD_code.png Graphic file (type png)
 <use SVD_code.png>
-Package pdftex.def Info: SVD_code.png  used on input line 105.
+Package pdftex.def Info: SVD_code.png  used on input line 115.
 (pdftex.def)             Requested size: 466.0554pt x 204.49982pt.
- [4 </Users/zhangyifan/Documents/MATH3320Project/report/dora_10.png> </Users/zhangyifan/Documents/MATH3320Project/report/dora_40.png> </Users/zhangyifan/Documents/MATH3320Project/report/dora_100.png> </Users/zhangyifan/Documents/MATH3320Project/report/dora_orig.png>]
-<dora_auto_{k}.png, id=36, 433.62pt x 289.08pt>
+ [5 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_10.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_40.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_100.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_orig.png>]
+<dora_auto_{k}.png, id=41, 433.62pt x 289.08pt>
 File: dora_auto_{k}.png Graphic file (type png)
 <use dora_auto_{k}.png>
-Package pdftex.def Info: dora_auto_{k}.png  used on input line 114.
+Package pdftex.def Info: dora_auto_{k}.png  used on input line 124.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 File: dora_orig.png Graphic file (type png)
 <use dora_orig.png>
-Package pdftex.def Info: dora_orig.png  used on input line 118.
+Package pdftex.def Info: dora_orig.png  used on input line 128.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 114--119
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 124--129
  [][][] 
  []
 
-<lenna_20.png, id=37, 433.62pt x 289.08pt>
+<lenna_20.png, id=42, 433.62pt x 289.08pt>
 File: lenna_20.png Graphic file (type png)
 <use lenna_20.png>
-Package pdftex.def Info: lenna_20.png  used on input line 129.
+Package pdftex.def Info: lenna_20.png  used on input line 141.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
-<lenna_50.png, id=38, 433.62pt x 289.08pt>
+<lenna_50.png, id=43, 433.62pt x 289.08pt>
 File: lenna_50.png Graphic file (type png)
 <use lenna_50.png>
-Package pdftex.def Info: lenna_50.png  used on input line 133.
+Package pdftex.def Info: lenna_50.png  used on input line 145.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 129--133
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 141--145
  [][][] 
  []
 
-<lenna_auto_{k}.png, id=39, 433.62pt x 289.08pt>
+<lenna_auto_{k}.png, id=44, 433.62pt x 289.08pt>
 File: lenna_auto_{k}.png Graphic file (type png)
 <use lenna_auto_{k}.png>
-Package pdftex.def Info: lenna_auto_{k}.png  used on input line 137.
+Package pdftex.def Info: lenna_auto_{k}.png  used on input line 149.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
-<lenna_orig.png, id=40, 433.62pt x 289.08pt>
+<lenna_orig.png, id=45, 433.62pt x 289.08pt>
 File: lenna_orig.png Graphic file (type png)
 <use lenna_orig.png>
-Package pdftex.def Info: lenna_orig.png  used on input line 141.
+Package pdftex.def Info: lenna_orig.png  used on input line 153.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 137--142
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 149--154
  [][][] 
  []
 
-[5 </Users/zhangyifan/Documents/MATH3320Project/report/SVD_code.png> </Users/zhangyifan/Documents/MATH3320Project/report/dora_auto_{k}.png>] [6 </Users/zhangyifan/Documents/MATH3320Project/report/lenna_20.png> </Users/zhangyifan/Documents/MATH3320Project/report/lenna_50.png> </Users/zhangyifan/Documents/MATH3320Project/report/lenna_auto_{k}.png> </Users/zhangyifan/Documents/MATH3320Project/report/lenna_orig.png>] [7] [8] (/Users/zhangyifan/Documents/MATH3320Project/report/report.aux)
+[6 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/SVD_code.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_auto_{k}.png>] [7 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_20.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_50.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_auto_{k}.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_orig.png>] [8] [9] (/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7127 strings out of 478994
- 116534 string characters out of 5858184
+ 7133 strings out of 478994
+ 116736 string characters out of 5858184
  438921 words of memory out of 5000000
- 24483 multiletter control sequences out of 15000+600000
+ 24488 multiletter control sequences out of 15000+600000
  412540 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,18n,133p,1060b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 85i,18n,133p,1073b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/zhangyifan/Documents/MATH3320Project/report/report.pdf (8 pages, 706089 bytes).
+Output written on /Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf (9 pages, 778571 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 109 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

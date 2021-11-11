@@ -71,10 +71,17 @@ important data is stored on the top, which corresponds to the top eigenvalues an
 
 \subsubsection*{2.1.2 \quad Application}
 SVD can be applied for image compression, by removing terms (eigenimages) associated to small singular values.
-We will show examples of image compression using SVD, so-called 'rank-k approximation'. For simplicity, we convert
-all images into grayscale images.\\
-First, we use Python to implement the rank-k approximation after computing SVD of inputed images. Here is the results for
-different rank-k.
+We will show examples of image compression using SVD, so-called 'rank-k approximation'. The whole implementation of 
+this report is done using Python. For simplicity, we convert all images into grayscale images first. The packages and 
+grayscalized process are as follows:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{library.png}
+    \caption{Packages and pre-processing}
+\end{figure}
+\begin{flushleft}
+    Here is the results for different rank-k. (\# of singular values = 512)  
+\end{flushleft}
 \begin{figure}[H]
     \centering
     \subfloat[k = 10]{
@@ -96,9 +103,12 @@ different rank-k.
     \caption{Doraemon and its compressed images using SVD}
     \label{ref_label_overall}
 \end{figure}
+\begin{flushleft}
 Since the weightings of eigenimages depend on corresponding singular values, the larger the singular value is,
 the more important the eigen-image is. Hence, we consider ignoring singular values which are less than 0.5\% of the 
-largest singular value automatically. Our code and result are as follows:\\
+largest singular value automatically so that the image can be compressed without losing too much information and influcing
+the image quality. Our code and result are as follows:\\
+\end{flushleft}
 Code:
 \begin{figure}[H]
     \centering
@@ -119,8 +129,10 @@ Results:
     \caption{SVD algorithm results}
     \label{ref_label_overall}
 \end{figure}
+\begin{flushleft}
 Now we use the same algorithm to test another image called 'Lenna'. The comparison between 
 SVD compressed images and the original image are as follows:
+\end{flushleft}
 \begin{figure}[H]
     \centering
     \subfloat[k = 20]{
