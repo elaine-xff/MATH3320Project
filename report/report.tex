@@ -344,7 +344,20 @@ sample images of different size of upper left corner of Walsh coefficients here.
     \caption{Balloon and its compressed images using Walsh Transform}
     \label{ref_label_overall}
 \end{figure}
+
 \subsection*{2.3\quad Discrete Fourier Transform (DFT)}
+
+\subsubsection*{2.3.1\quad Definition}
+The 2D \textbf{Discrete Fourier Transform (DFT)} of a $M\times N$ image $g = (g(k,l)_{k,l})$ 
+where $k$ = 0,1,\ldots, $M$-1 and $l$ = 0,1,\ldots, $N$-1, is defined as 
+\begin{equation*}
+    \tilde{g}(m,n) = \frac{1}{MN}\sum_{k=0}^{M-1}\sum_{l=0}^{N-1}g(k,l)e^{-2\pi j(\frac{km}{M}+\frac{ln}{N})}
+\end{equation*}
+
+
+\subsubsection*{2.3.2\quad Application}
+
+\subsubsection*{2.3.3\quad Error Analysis}
 
 
 \subsubsection*{2.3.4\quad Even Discrete Cosine Transform (EDCT)}
