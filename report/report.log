@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.19)  11 NOV 2021 19:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.21)  11 NOV 2021 20:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.tex
-(/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.tex
+**/Users/zhangyifan/Documents/MATH3320Project/report/report.tex
+(/Users/zhangyifan/Documents/MATH3320Project/report/report.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -253,27 +253,84 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layouthoffset=\dimen174
 \Gm@layoutvoffset=\dimen175
 \Gm@dimlist=\toks30
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count309
 \l__pdf_internal_box=\box52
-) (/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.aux)
+) (/Users/zhangyifan/Documents/MATH3320Project/report/report.aux
+
+LaTeX Warning: Label `ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `sub@ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `sub@ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `sub@ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `sub@ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `ref_label_overall' multiply defined.
+
+
+LaTeX Warning: Label `ref_label1' multiply defined.
+
+
+LaTeX Warning: Label `sub@ref_label1' multiply defined.
+
+
+LaTeX Warning: Label `ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `sub@ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `sub@ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `sub@ref_label2' multiply defined.
+
+
+LaTeX Warning: Label `ref_label_overall' multiply defined.
+
+)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
@@ -296,7 +353,28 @@ Package caption Info: End \AtBeginDocument code.
 \everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
@@ -334,47 +412,47 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Overfull \hbox (3.26385pt too wide) in paragraph at lines 55--66
+Overfull \hbox (3.26385pt too wide) in paragraph at lines 56--67
 []\OT1/cmr/m/n/12 ,
  []
 
 <dora_10.png, id=13, 433.62pt x 289.08pt>
 File: dora_10.png Graphic file (type png)
 <use dora_10.png>
-Package pdftex.def Info: dora_10.png  used on input line 82.
+Package pdftex.def Info: dora_10.png  used on input line 83.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 <dora_40.png, id=15, 433.62pt x 289.08pt>
 File: dora_40.png Graphic file (type png)
 <use dora_40.png>
-Package pdftex.def Info: dora_40.png  used on input line 86.
+Package pdftex.def Info: dora_40.png  used on input line 87.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (19.58311pt too wide) in paragraph at lines 82--86
+Overfull \hbox (19.58311pt too wide) in paragraph at lines 83--87
  [][][] 
  []
 
 <dora_100.png, id=16, 433.62pt x 289.08pt>
 File: dora_100.png Graphic file (type png)
 <use dora_100.png>
-Package pdftex.def Info: dora_100.png  used on input line 90.
+Package pdftex.def Info: dora_100.png  used on input line 91.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 <dora_orig.png, id=17, 433.62pt x 289.08pt>
 File: dora_orig.png Graphic file (type png)
 <use dora_orig.png>
-Package pdftex.def Info: dora_orig.png  used on input line 94.
+Package pdftex.def Info: dora_orig.png  used on input line 95.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 90--95
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 91--96
  [][][] 
  []
 
@@ -382,97 +460,71 @@ Overfull \hbox (15.66649pt too wide) in paragraph at lines 90--95
 <SVD_code.png, id=28, 729.72626pt x 320.19624pt>
 File: SVD_code.png Graphic file (type png)
 <use SVD_code.png>
-Package pdftex.def Info: SVD_code.png  used on input line 104.
+Package pdftex.def Info: SVD_code.png  used on input line 105.
 (pdftex.def)             Requested size: 466.0554pt x 204.49982pt.
- [4 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_10.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_40.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_100.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_orig.png>]
+ [4 </Users/zhangyifan/Documents/MATH3320Project/report/dora_10.png> </Users/zhangyifan/Documents/MATH3320Project/report/dora_40.png> </Users/zhangyifan/Documents/MATH3320Project/report/dora_100.png> </Users/zhangyifan/Documents/MATH3320Project/report/dora_orig.png>]
 <dora_auto_{k}.png, id=36, 433.62pt x 289.08pt>
 File: dora_auto_{k}.png Graphic file (type png)
 <use dora_auto_{k}.png>
-Package pdftex.def Info: dora_auto_{k}.png  used on input line 113.
+Package pdftex.def Info: dora_auto_{k}.png  used on input line 114.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 File: dora_orig.png Graphic file (type png)
 <use dora_orig.png>
-Package pdftex.def Info: dora_orig.png  used on input line 117.
+Package pdftex.def Info: dora_orig.png  used on input line 118.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 113--118
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 114--119
  [][][] 
  []
 
 <lenna_20.png, id=37, 433.62pt x 289.08pt>
 File: lenna_20.png Graphic file (type png)
 <use lenna_20.png>
-Package pdftex.def Info: lenna_20.png  used on input line 128.
+Package pdftex.def Info: lenna_20.png  used on input line 129.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 <lenna_50.png, id=38, 433.62pt x 289.08pt>
 File: lenna_50.png Graphic file (type png)
 <use lenna_50.png>
-Package pdftex.def Info: lenna_50.png  used on input line 132.
+Package pdftex.def Info: lenna_50.png  used on input line 133.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 128--132
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 129--133
  [][][] 
  []
 
 <lenna_auto_{k}.png, id=39, 433.62pt x 289.08pt>
 File: lenna_auto_{k}.png Graphic file (type png)
 <use lenna_auto_{k}.png>
-Package pdftex.def Info: lenna_auto_{k}.png  used on input line 136.
+Package pdftex.def Info: lenna_auto_{k}.png  used on input line 137.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 <lenna_orig.png, id=40, 433.62pt x 289.08pt>
 File: lenna_orig.png Graphic file (type png)
 <use lenna_orig.png>
-Package pdftex.def Info: lenna_orig.png  used on input line 140.
+Package pdftex.def Info: lenna_orig.png  used on input line 141.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 136--141
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 137--142
  [][][] 
  []
 
-[5 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/SVD_code.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_auto_{k}.png>] [6 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_20.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_50.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_auto_{k}.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_orig.png>]
+[5 </Users/zhangyifan/Documents/MATH3320Project/report/SVD_code.png> </Users/zhangyifan/Documents/MATH3320Project/report/dora_auto_{k}.png>] [6 </Users/zhangyifan/Documents/MATH3320Project/report/lenna_20.png> </Users/zhangyifan/Documents/MATH3320Project/report/lenna_50.png> </Users/zhangyifan/Documents/MATH3320Project/report/lenna_auto_{k}.png> </Users/zhangyifan/Documents/MATH3320Project/report/lenna_orig.png>] [7] [8] (/Users/zhangyifan/Documents/MATH3320Project/report/report.aux)
 
-/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.tex:175: Package amsmath Error: Erroneous nesting of equation structures;
-(amsmath)                trying to recover with `aligned'.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175     \end{flalign}
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Package amsmath Warning: Foreign command \atop;
-(amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 175.
-
-/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.tex:175: Double subscript.
-<argument> ...op j\neq i}^{r}\sigma _i\sigma _j^u_
-                                                  {im}v_{in}u_{jm}v_{jn}\rig...
-l.175     \end{flalign}
-                       
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-[7] [8] (/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6657 strings out of 478994
- 108333 string characters out of 5858184
- 424642 words of memory out of 5000000
- 24045 multiletter control sequences out of 15000+600000
+ 7127 strings out of 478994
+ 116534 string characters out of 5858184
+ 438921 words of memory out of 5000000
+ 24483 multiletter control sequences out of 15000+600000
  412540 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,10n,133p,1073b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf (8 pages, 725685 bytes).
+ 85i,18n,133p,1060b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on /Users/zhangyifan/Documents/MATH3320Project/report/report.pdf (8 pages, 706089 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
