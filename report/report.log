@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.19)  11 NOV 2021 22:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.19)  11 NOV 2021 22:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -585,49 +585,49 @@ Package pdftex.def Info: SVD_code.png  used on input line 123.
 <dora_auto_{k}.png, id=37, 433.62pt x 289.08pt>
 File: dora_auto_{k}.png Graphic file (type png)
 <use dora_auto_{k}.png>
-Package pdftex.def Info: dora_auto_{k}.png  used on input line 132.
+Package pdftex.def Info: dora_auto_{k}.png  used on input line 134.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 File: dora_orig.png Graphic file (type png)
 <use dora_orig.png>
-Package pdftex.def Info: dora_orig.png  used on input line 136.
+Package pdftex.def Info: dora_orig.png  used on input line 138.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 132--137
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 134--139
  [][][] 
  []
 
 <lenna_20.png, id=38, 433.62pt x 289.08pt>
 File: lenna_20.png Graphic file (type png)
 <use lenna_20.png>
-Package pdftex.def Info: lenna_20.png  used on input line 149.
+Package pdftex.def Info: lenna_20.png  used on input line 151.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 <lenna_50.png, id=39, 433.62pt x 289.08pt>
 File: lenna_50.png Graphic file (type png)
 <use lenna_50.png>
-Package pdftex.def Info: lenna_50.png  used on input line 153.
+Package pdftex.def Info: lenna_50.png  used on input line 155.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 149--153
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 151--155
  [][][] 
  []
 
 <lenna_auto_{k}.png, id=40, 433.62pt x 289.08pt>
 File: lenna_auto_{k}.png Graphic file (type png)
 <use lenna_auto_{k}.png>
-Package pdftex.def Info: lenna_auto_{k}.png  used on input line 157.
+Package pdftex.def Info: lenna_auto_{k}.png  used on input line 159.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 <lenna_orig.png, id=41, 433.62pt x 289.08pt>
 File: lenna_orig.png Graphic file (type png)
 <use lenna_orig.png>
-Package pdftex.def Info: lenna_orig.png  used on input line 161.
+Package pdftex.def Info: lenna_orig.png  used on input line 163.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 157--162
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 159--164
  [][][] 
  []
 
 [4 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/SVD_code.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_auto_{k}.png>] [5 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_20.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_50.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_auto_{k}.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_orig.png>] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 228--233
+Underfull \hbox (badness 10000) in paragraph at lines 230--235
 
  []
 
@@ -635,50 +635,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--233
 <haar_code.png, id=66, 818.05624pt x 467.7475pt>
 File: haar_code.png Graphic file (type png)
 <use haar_code.png>
-Package pdftex.def Info: haar_code.png  used on input line 256.
+Package pdftex.def Info: haar_code.png  used on input line 258.
 (pdftex.def)             Requested size: 466.0554pt x 266.48323pt.
 <balloon_HaarTo_2.png, id=67, 433.62pt x 289.08pt>
 File: balloon_HaarTo_2.png Graphic file (type png)
 <use balloon_HaarTo_2.png>
-Package pdftex.def Info: balloon_HaarTo_2.png  used on input line 271.
+Package pdftex.def Info: balloon_HaarTo_2.png  used on input line 273.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
 <balloon_HaarTo_3.png, id=68, 433.62pt x 289.08pt>
 File: balloon_HaarTo_3.png Graphic file (type png)
 <use balloon_HaarTo_3.png>
-Package pdftex.def Info: balloon_HaarTo_3.png  used on input line 275.
+Package pdftex.def Info: balloon_HaarTo_3.png  used on input line 277.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
 <balloon_HaarTo_4.png, id=69, 433.62pt x 289.08pt>
 File: balloon_HaarTo_4.png Graphic file (type png)
 <use balloon_HaarTo_4.png>
-Package pdftex.def Info: balloon_HaarTo_4.png  used on input line 279.
+Package pdftex.def Info: balloon_HaarTo_4.png  used on input line 281.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
 <balloon_HaarTo_5.png, id=70, 433.62pt x 289.08pt>
 File: balloon_HaarTo_5.png Graphic file (type png)
 <use balloon_HaarTo_5.png>
-Package pdftex.def Info: balloon_HaarTo_5.png  used on input line 283.
+Package pdftex.def Info: balloon_HaarTo_5.png  used on input line 285.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
 <balloon_HaarTo_6.png, id=71, 433.62pt x 289.08pt>
 File: balloon_HaarTo_6.png Graphic file (type png)
 <use balloon_HaarTo_6.png>
-Package pdftex.def Info: balloon_HaarTo_6.png  used on input line 287.
+Package pdftex.def Info: balloon_HaarTo_6.png  used on input line 289.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
 <balloon_HaarTo_7.png, id=72, 433.62pt x 289.08pt>
 File: balloon_HaarTo_7.png Graphic file (type png)
 <use balloon_HaarTo_7.png>
-Package pdftex.def Info: balloon_HaarTo_7.png  used on input line 291.
+Package pdftex.def Info: balloon_HaarTo_7.png  used on input line 293.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
 <balloon_HaarTo_10.png, id=73, 433.62pt x 289.08pt>
 File: balloon_HaarTo_10.png Graphic file (type png)
 <use balloon_HaarTo_10.png>
-Package pdftex.def Info: balloon_HaarTo_10.png  used on input line 300.
+Package pdftex.def Info: balloon_HaarTo_10.png  used on input line 302.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 <balloon_orig.png, id=74, 433.62pt x 289.08pt>
 File: balloon_orig.png Graphic file (type png)
 <use balloon_orig.png>
-Package pdftex.def Info: balloon_orig.png  used on input line 304.
+Package pdftex.def Info: balloon_orig.png  used on input line 306.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 300--305
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 302--307
  [][][] 
  []
 
@@ -686,32 +686,32 @@ Overfull \hbox (15.66649pt too wide) in paragraph at lines 300--305
 <balloon_walshTo2.png, id=79, 433.62pt x 289.08pt>
 File: balloon_walshTo2.png Graphic file (type png)
 <use balloon_walshTo2.png>
-Package pdftex.def Info: balloon_walshTo2.png  used on input line 321.
+Package pdftex.def Info: balloon_walshTo2.png  used on input line 323.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
 <balloon_walshTo3.png, id=80, 433.62pt x 289.08pt>
 File: balloon_walshTo3.png Graphic file (type png)
 <use balloon_walshTo3.png>
-Package pdftex.def Info: balloon_walshTo3.png  used on input line 325.
+Package pdftex.def Info: balloon_walshTo3.png  used on input line 327.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
 <balloon_walshTo4.png, id=81, 433.62pt x 289.08pt>
 File: balloon_walshTo4.png Graphic file (type png)
 <use balloon_walshTo4.png>
-Package pdftex.def Info: balloon_walshTo4.png  used on input line 329.
+Package pdftex.def Info: balloon_walshTo4.png  used on input line 331.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
 <balloon_walshTo5.png, id=82, 433.62pt x 289.08pt>
 File: balloon_walshTo5.png Graphic file (type png)
 <use balloon_walshTo5.png>
-Package pdftex.def Info: balloon_walshTo5.png  used on input line 333.
+Package pdftex.def Info: balloon_walshTo5.png  used on input line 335.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
 <balloon_walshTo6.png, id=83, 433.62pt x 289.08pt>
 File: balloon_walshTo6.png Graphic file (type png)
 <use balloon_walshTo6.png>
-Package pdftex.def Info: balloon_walshTo6.png  used on input line 337.
+Package pdftex.def Info: balloon_walshTo6.png  used on input line 339.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
 <balloon_walshTo7.png, id=84, 433.62pt x 289.08pt>
 File: balloon_walshTo7.png Graphic file (type png)
 <use balloon_walshTo7.png>
-Package pdftex.def Info: balloon_walshTo7.png  used on input line 341.
+Package pdftex.def Info: balloon_walshTo7.png  used on input line 343.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
  [9 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_HaarTo_2.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_HaarTo_3.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_HaarTo_4.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_HaarTo_5.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_HaarTo_6.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_HaarTo_7.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_HaarTo_10.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_orig.png>] [10 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_walshTo2.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_walshTo3.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_walshTo4.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_walshTo5.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_walshTo6.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_walshTo7.png>] (/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.aux)
 
@@ -727,7 +727,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  85i,18n,133p,1073b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf (10 pages, 1010276 bytes).
+Output written on /Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf (10 pages, 1010272 bytes).
 PDF statistics:
  156 PDF objects out of 1000 (max. 8388607)
  73 compressed objects within 1 object stream
