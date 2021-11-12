@@ -456,7 +456,7 @@ Results:
     \label{ref_label_overall}
 \end{figure}
 \begin{flushleft}
-From the 'Hibiscus' example, it is clear that the compression performace is already good enough when top 10\% coefficients are kept.
+From the 'Hibiscus' example, it is clear that the compression performance is already good enough when top 10\% coefficients are kept.
 The following 'platform' image is also compressed by the same logic.
 \end{flushleft}
 \begin{figure}[H]
@@ -515,10 +515,30 @@ with $0 \leq m \leq M-1$, $0 \leq n \leq N-1$.
     % dont ask me why, dont wanna open the pages again
 
 \section*{3.\quad Conclusion}
+In this part, we would compare the compression results and analyze the applicability of four different image decomposition techniques: 
+SVD, Haar Transform, Walsh Transform and DFT.
+\begin{flushleft}
+    The following form shows the mean square error (MSE) under image compression of an image of a flower. \\
+    In each column with number $n$, 
+    SVD technique refers to MSE under rank-n approximation; 
+    Haar transfrom and Walsh transform refers to MSE of image construction by keeping $n$-size upper left corner coefficients;
+    And DFT technique refers to MSE by reconstruction of $n\times n$\% eigenimages.\\
+    \begin{figure}[H]
+        \centering
+        \subfloat[Haar to 10]{
+            \label{ref_label1}
+            \includegraphics[width=0.4\textwidth]{balloon_HaarTo_10.png}
+            }
+        \caption{MSE under different compression techniques}
+        \label{ref_label_overall}
+    \end{figure}
 
+    Each compression techniques shows different performance at different sizes of component transforms. 
+    From results it has been observed that SVD technique gives supervior performance among all with lowest MSE and rapid compression speed. 
+    The conpression efficiency of Haar Transform, Walsh Transform and DFT is relatively low. 
+    They show similar performance when order is lower than 4, however, when order is larger than 4, 
+    Walsh Transform gives better performance than the other two techniques. 
 
-
-
-
+\end{flushleft}
 
 \end{document}
