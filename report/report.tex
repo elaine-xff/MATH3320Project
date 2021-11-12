@@ -117,7 +117,6 @@ the more important the eigenimage is. Hence, we consider ignoring singular value
 largest singular value automatically so that the image can be compressed without losing too much information and influcing
 the image quality. Our code and result are as follows:\\
 \end{flushleft}
-\pagebreak
 Code:
 \begin{figure}[H]
     \centering
@@ -171,10 +170,8 @@ For any $k$ with $0\leq k \leq r$, we define $g_k$ a rank-k approximation of $g$
 \begin{equation*}
     g_k = \sum_{j=1}^{k}\sigma_j \vec{u_j}\vec{v_j}^T,
 \end{equation*} 
-This low rank matrix approximation can be applied to image compression. 
-\begin{flushleft}
+\noindent
 Here we apply Frobenius norm to compute the error of approximation:\\
-\end{flushleft}
 Let $f=\sum\limits_{j=1}^{r}\sigma_j \vec{u_j}\vec{v_j}^T$  be the SVD of an $M \times N$ image $f$.
 For any $k$ with $k<r$, and $f_k = \sum\limits_{j=1}^{k}\sigma_j \vec{u_j}\vec{v_j}^T$, we have
 \begin{equation*}
@@ -195,10 +192,10 @@ $\vec{v_i}= \left(\begin{array}{c} v_{i1} \\ \vdots \\ v_{iN} \end{array} \right
         &= \sum\limits_{i=k+1}^{r}\sigma_i^2 \cancelto{1}{\sum\limits_{m}u_{im}^2} \cancelto{1}{\sum\limits_{n}v_{in}^2} + 2\sum\limits_{\substack{j=k+1\\j\neq i}}^{r} \sigma_i\sigma_j\cancelto{0}{\sum\limits_{m}u_{im}u_{jm}}\cancelto{0}{\sum\limits_{n}v_{in}v_{jn}} &\\ 
         &= \sum\limits_{i=k+1}^{r}\sigma_i^2 &
 \end{flalign*}
-
+\noindent
 Therefore, we prove that\\
 \textbf{ Sum of square error of the approximation = Sum of omitted eigenvalues}.
-
+\pagebreak
 
 \subsection*{2.2\quad Haar Transform and Walsh Transform}
 
@@ -249,24 +246,20 @@ The Walsh Transfrom of $f \in M_{n\times n}$ is defined as:
 
 \subsubsection*{2.2.3 \quad Application}
 According to the definition in last subsection, the transformation codes and transformed images are implemented as follows:
-\begin{flushleft}
-(a) Haar Transform 
 
+\noindent
+(a) Haar Transform\\
 Code:
-\end{flushleft}
-
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{haar_code.png}
     \caption{Haar Transform Codes}
 \end{figure}
-\begin{flushleft}
-Results:
-
-In forllowing figures, we keep upper left corner Haar coefficients in Haar transform matrix up to  $2 \times 2$, 
+\noindent
+Results:\\
+In following figures, we keep upper left corner Haar coefficients in Haar transform matrix up to  $2 \times 2$, 
 $3 \times 3$, $4 \times 4$, \dots respectively.
 (Size of this 'balloon' image = $128 \times 128$)
-\end{flushleft}
 \begin{figure}[H]
     \centering
     \subfloat[Haar to 2]{
@@ -346,7 +339,7 @@ sample images of different size of upper left corner of Walsh coefficients here.
     \caption{Balloon and its compressed images using Walsh Transform}
     \label{ref_label_overall}
 \end{figure}
-
+\pagebreak
 \subsection*{2.3\quad Discrete Fourier Transform (DFT)}
 
 \subsubsection*{2.3.1\quad Definition}

@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1636732177 "/Users/zhangyifan/Documents/MATH3320Project/report/report.tex" "/Users/zhangyifan/Documents/MATH3320Project/report/report.pdf" "report" 1636732200
-  "/Users/zhangyifan/Documents/MATH3320Project/report/report.aux" 1636732179 9129 52973ad9232833607d45eca01483f9c9 ""
-  "/Users/zhangyifan/Documents/MATH3320Project/report/report.tex" 1636732177 22753 62c7f297aa89591829f4d1d3069f7f68 ""
+["pdflatex"] 1636733159 "/Users/zhangyifan/Documents/MATH3320Project/report/report.tex" "/Users/zhangyifan/Documents/MATH3320Project/report/report.pdf" "report" 1636733211
+  "/Users/zhangyifan/Documents/MATH3320Project/report/report.aux" 1636733161 9129 93ee53bf5a28741bb07fff9719a0e6b5 ""
+  "/Users/zhangyifan/Documents/MATH3320Project/report/report.tex" 1636733156 22626 2dd7f6c5234446b89a569e573f680c93 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -138,12 +138,12 @@
   "platform_fft_0.15.png" 1636721215 55526 c94b327d5112efc5373ca445a8225f46 ""
   "platform_fft_0.2.png" 1636721215 55723 9c54147bb7f715b826e2bbe988c5bc8e ""
   "platform_orig.png" 1636721215 57253 eff15adb322a0aad5cba2b584a5b491b ""
-  "report.aux" 1636732179 9129 52973ad9232833607d45eca01483f9c9 "pdflatex"
-  "report.tex" 1636732177 22753 62c7f297aa89591829f4d1d3069f7f68 ""
+  "report.aux" 1636733161 9129 93ee53bf5a28741bb07fff9719a0e6b5 "pdflatex"
+  "report.tex" 1636733156 22626 2dd7f6c5234446b89a569e573f680c93 ""
   "rgb2gray.png" 1636637735 87589 b9a1722dad2f3881e2d61c5253071d79 ""
   (generated)
-  "report.pdf"
-  "report.log"
   "/Users/zhangyifan/Documents/MATH3320Project/report/report.log"
   "/Users/zhangyifan/Documents/MATH3320Project/report/report.pdf"
+  "report.pdf"
   "report.aux"
+  "report.log"
