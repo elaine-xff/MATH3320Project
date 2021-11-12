@@ -372,16 +372,63 @@ Then we conclude that $UU^{\ast}=\frac{1}{N}I$
 \subsubsection*{2.3.2\quad Application}
 (a) Fast Fourier Transform Algorithm (FFT)
 
+\begin{flushleft} 
+Code: 
+\end{flushleft}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{fft_algo.png}
+    \caption{FFT Algorithm}
+\end{figure}
+
 \begin{flushleft}
 (b) Example
 
 Code: 
 \end{flushleft}
-
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{fft_compression.png}
+    \caption{FFT compression code}
+\end{figure}
 \begin{flushleft}
 Results:
 \end{flushleft}
+\begin{figure}[H]
+    \centering
+    \subfloat[Haar to 10]{
+        \label{ref_label1}
+        \includegraphics[width=0.5\textwidth]{hibiscus_fft_0.005.png}
+        }
+    \subfloat[Original]{
+        \label{ref_label2}
+        \includegraphics[width=0.5\textwidth]{hibiscus_fft_0.05.png}
+        }\\
+    \subfloat[Original]{
+        \label{ref_label2}
+        \includegraphics[width=0.5\textwidth]{hibiscus_orig.png}
+        }
+    \caption{FFT compression results for Hibiscus}
+    \label{ref_label_overall}
+\end{figure}
 
+\begin{figure}[H]
+    \centering
+    \subfloat[Haar to 10]{
+        \label{ref_label1}
+        \includegraphics[width=0.5\textwidth]{platform_fft_0.005.png}
+        }
+    \subfloat[Original]{
+        \label{ref_label2}
+        \includegraphics[width=0.5\textwidth]{platform_fft_0.05.png}
+        }\\
+    \subfloat[Original]{
+        \label{ref_label2}
+        \includegraphics[width=0.5\textwidth]{platform_orig.png}
+        }
+    \caption{FFT compression results for Platform}
+    \label{ref_label_overall}
+\end{figure}
 \begin{flushleft}
 (c) Even Discrete Cosine Transform (EDCT)
 \end{flushleft}
