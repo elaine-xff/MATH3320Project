@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.19)  13 NOV 2021 00:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.21)  13 NOV 2021 00:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.tex
-(/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.tex
+**/Users/zhangyifan/Documents/MATH3320Project/report/report.tex
+(/Users/zhangyifan/Documents/MATH3320Project/report/report.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -281,7 +281,7 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count313
 \l__pdf_internal_box=\box52
-) (/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.aux
+) (/Users/zhangyifan/Documents/MATH3320Project/report/report.aux
 
 LaTeX Warning: Label `ref_label1' multiply defined.
 
@@ -647,7 +647,7 @@ Overfull \hbox (15.66649pt too wide) in paragraph at lines 106--111
  [][][] 
  []
 
-[2 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/library.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/rgb2gray.png>] [3 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_10.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_40.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_100.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_orig.png>]
+[2 </Users/zhangyifan/Documents/MATH3320Project/report/library.png> </Users/zhangyifan/Documents/MATH3320Project/report/rgb2gray.png>] [3 </Users/zhangyifan/Documents/MATH3320Project/report/dora_10.png> </Users/zhangyifan/Documents/MATH3320Project/report/dora_40.png> </Users/zhangyifan/Documents/MATH3320Project/report/dora_100.png> </Users/zhangyifan/Documents/MATH3320Project/report/dora_orig.png>]
 <SVD_code.png, id=36, 729.72626pt x 320.19624pt>
 File: SVD_code.png Graphic file (type png)
 <use SVD_code.png>
@@ -697,7 +697,7 @@ Overfull \hbox (15.66649pt too wide) in paragraph at lines 160--165
  [][][] 
  []
 
-[4 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/SVD_code.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/dora_auto_{k}.png>] [5 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_20.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_50.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_auto_{k}.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/lenna_orig.png>] [6]
+[4 </Users/zhangyifan/Documents/MATH3320Project/report/SVD_code.png> </Users/zhangyifan/Documents/MATH3320Project/report/dora_auto_{k}.png>] [5 </Users/zhangyifan/Documents/MATH3320Project/report/lenna_20.png> </Users/zhangyifan/Documents/MATH3320Project/report/lenna_50.png> </Users/zhangyifan/Documents/MATH3320Project/report/lenna_auto_{k}.png> </Users/zhangyifan/Documents/MATH3320Project/report/lenna_orig.png>] [6]
 Underfull \hbox (badness 10000) in paragraph at lines 230--235
 
  []
@@ -748,7 +748,7 @@ File: balloon_orig.png Graphic file (type png)
 <use balloon_orig.png>
 Package pdftex.def Info: balloon_orig.png  used on input line 302.
 (pdftex.def)             Requested size: 186.41931pt x 124.2799pt.
- [8 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/haar_code.png>]
+ [8 </Users/zhangyifan/Documents/MATH3320Project/report/haar_code.png>]
 <balloon_walshTo2.png, id=79, 433.62pt x 289.08pt>
 File: balloon_walshTo2.png Graphic file (type png)
 <use balloon_walshTo2.png>
@@ -779,7 +779,7 @@ File: balloon_walshTo7.png Graphic file (type png)
 <use balloon_walshTo7.png>
 Package pdftex.def Info: balloon_walshTo7.png  used on input line 339.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
- [9 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_HaarTo_2.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_HaarTo_3.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_HaarTo_4.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_HaarTo_5.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_HaarTo_6.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_HaarTo_7.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_HaarTo_10.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_orig.png>] [10 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_walshTo2.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_walshTo3.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_walshTo4.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_walshTo5.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_walshTo6.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/balloon_walshTo7.png>] [11] [12]
+ [9 </Users/zhangyifan/Documents/MATH3320Project/report/balloon_HaarTo_2.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_HaarTo_3.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_HaarTo_4.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_HaarTo_5.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_HaarTo_6.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_HaarTo_7.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_HaarTo_10.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_orig.png>] [10 </Users/zhangyifan/Documents/MATH3320Project/report/balloon_walshTo2.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_walshTo3.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_walshTo4.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_walshTo5.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_walshTo6.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_walshTo7.png>] [11] [12]
 <fft_algo.png, id=112, 734.745pt x 738.76pt>
 File: fft_algo.png Graphic file (type png)
 <use fft_algo.png>
@@ -790,7 +790,7 @@ File: fft_compression.png Graphic file (type png)
 <use fft_compression.png>
 Package pdftex.def Info: fft_compression.png  used on input line 426.
 (pdftex.def)             Requested size: 466.0554pt x 192.13426pt.
- [13 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/fft_algo.png>]
+ [13 </Users/zhangyifan/Documents/MATH3320Project/report/fft_algo.png>]
 <hibiscus_fft_0.005.png, id=119, 433.62pt x 289.08pt>
 File: hibiscus_fft_0.005.png Graphic file (type png)
 <use hibiscus_fft_0.005.png>
@@ -850,22 +850,27 @@ Package pdftex.def Info: platform_fft_0.2.png  used on input line 478.
 File: platform_orig.png Graphic file (type png)
 <use platform_orig.png>
 Package pdftex.def Info: platform_orig.png  used on input line 482.
-(pdftex.def)             Requested size: 163.12222pt x 108.74878pt.
-[14 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/fft_compression.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/hibiscus_fft_0.005.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/hibiscus_fft_0.05.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/hibiscus_fft_0.1.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/hibiscus_orig.png>] [15 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/platform_fft_0.005.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/platform_fft_0.05.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/platform_fft_0.1.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/platform_fft_0.15.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/platform_fft_0.2.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/platform_orig.png>] [16] [17] (/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.aux)
+(pdftex.def)             Requested size: 233.0277pt x 155.351pt.
+
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 478--483
+ [][][] 
+ []
+
+[14 </Users/zhangyifan/Documents/MATH3320Project/report/fft_compression.png> </Users/zhangyifan/Documents/MATH3320Project/report/hibiscus_fft_0.005.png> </Users/zhangyifan/Documents/MATH3320Project/report/hibiscus_fft_0.05.png> </Users/zhangyifan/Documents/MATH3320Project/report/hibiscus_fft_0.1.png> </Users/zhangyifan/Documents/MATH3320Project/report/hibiscus_orig.png>] [15 </Users/zhangyifan/Documents/MATH3320Project/report/platform_fft_0.005.png> </Users/zhangyifan/Documents/MATH3320Project/report/platform_fft_0.05.png> </Users/zhangyifan/Documents/MATH3320Project/report/platform_fft_0.1.png> </Users/zhangyifan/Documents/MATH3320Project/report/platform_fft_0.15.png> </Users/zhangyifan/Documents/MATH3320Project/report/platform_fft_0.2.png> </Users/zhangyifan/Documents/MATH3320Project/report/platform_orig.png>] [16] [17] (/Users/zhangyifan/Documents/MATH3320Project/report/report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  6969 strings out of 478994
- 114328 string characters out of 5858184
+ 114211 string characters out of 5858184
  429875 words of memory out of 5000000
  24306 multiletter control sequences out of 15000+600000
  414960 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,19n,133p,1073b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 85i,19n,133p,1060b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf (17 pages, 1986446 bytes).
+Output written on /Users/zhangyifan/Documents/MATH3320Project/report/report.pdf (17 pages, 1986422 bytes).
 PDF statistics:
  206 PDF objects out of 1000 (max. 8388607)
  91 compressed objects within 1 object stream
