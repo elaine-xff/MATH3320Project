@@ -33,19 +33,18 @@ and sufficient bandwidth in the storage and transmission process.
 Therefore, data compression becomes extremely vital for reducing the data 
 redundancy to save more hardware space and transmission bandwidth. 
 
-Image compression is the process of removing redundant and irrelevant information, 
+Image compression is the process of removing redundant and less irrelevant information, 
 and efficiently encoding or reverting what remains without affecting or degrading its quality. 
 The objective of image compression is to store or transmit data in an efficient form
 and to reduce the storage quantity as much as possible.
 
-One useful techniques in image compression is to decompose an image into linear combination 
+One useful technique in image compression is to decompose an image into linear combination 
 of elementary images with specific properties. By truncating some less important components 
 in the image decomposition, we can compress an image to reduce the image size 
 and achieve transform coding. 
 
 In this paper, we will discuss some useful image decomposition methods, demonstrate the 
-applications of these decomsotion methods for image compression and analyze their advantages,
-disadvantages and applicability.
+applications of these decomsotion methods for image compression and compare their compression performance.
 \end{flushleft}
 \newpage
 % Part2: Method
@@ -74,7 +73,7 @@ important data is stored on the top, which corresponds to the top eigenvalues an
 
 \subsubsection*{2.1.2 \quad Application}
 SVD can be applied for image compression, by removing terms (eigenimages) associated to small singular values.
-We will show examples of image compression using SVD, so-called 'rank-k approximation'. The whole implementation of 
+We will show examples of image compression using SVD, so-called `rank-k approximation'. The whole implementation of 
 this report is done using Python. For simplicity, we convert all images into grayscale images first. The packages and 
 grayscalized process are as follows:
 \begin{figure}[H]
@@ -90,7 +89,7 @@ grayscalized process are as follows:
     \caption{Packages and pre-processing}
 \end{figure}
 \begin{flushleft}
-Here is the results for different rank-k. (\# of singular values = 512)  
+Here is the results for different rank-k approximations. (\# of singular values = 512)  
 \end{flushleft}
 \begin{figure}[H]
     \centering
@@ -115,7 +114,7 @@ Here is the results for different rank-k. (\# of singular values = 512)
 \end{figure}
 \begin{flushleft}
 Since the weightings of eigenimages depend on corresponding singular values, the larger the singular value is,
-the more important the eigen-image is. Hence, we consider ignoring singular values which are less than 0.5\% of the 
+the more important the eigenimage is. Hence, we consider ignoring singular values which are less than 0.5\% of the 
 largest singular value automatically so that the image can be compressed without losing too much information and influcing
 the image quality. Our code and result are as follows:\\
 \end{flushleft}
@@ -167,12 +166,12 @@ SVD compressed images and the original image are as follows: (\# of singular val
     \caption{Lenna and its compressed images using SVD}
     \label{ref_label_overall}
 \end{figure}
+
 \subsubsection*{2.1.3 \quad Error Analysis}
-For any $k$ with $0\leq k \leq r$, we define
+For any $k$ with $0\leq k \leq r$, we define $g_k$ a rank-k approximation of $g$ by
 \begin{equation*}
     g_k = \sum_{j=1}^{k}\sigma_j \vec{u_j}\vec{v_j}^T,
 \end{equation*} 
-where $g_k$ is called a rank-k approximation of $g$.
 This low rank matrix approximation can be applied to image compression. 
 \begin{flushleft}
 Here we apply Frobenius norm to compute the error of approximation:\\
@@ -187,7 +186,7 @@ Approximate $f$ by $f_k$ with $k<r$ where $f_k = \sum\limits_{j=1}^{k}\sigma_j \
 Define the error of the approximation by $D\equiv f-f_k = \sum\limits_{j=k+1}^{r}\sigma_j \vec{u_j}\vec{v_j}^T \in M_{m\times n}$
 Then the $m$-th row, $n$-th column entry of $D$ is given by
 \begin{equation*}
-    D_{mn} = \sum_{j=k+1}^{r}\sigma_j^2u_{im}v_{in}
+    D_{mn} = \sum_{j=k+1}^{r}\sigma_ju_{im}v_{in}
 \end{equation*}
 where $\vec{u_i}= \left( \begin{array}{c} u_{i1} \\ \vdots \\ u_{iM} \end{array} \right)$,
 $\vec{v_i}= \left(\begin{array}{c} v_{i1} \\ \vdots \\ v_{iN} \end{array} \right)$. Then,
@@ -197,6 +196,7 @@ $\vec{v_i}= \left(\begin{array}{c} v_{i1} \\ \vdots \\ v_{iN} \end{array} \right
         &= \sum\limits_{i=k+1}^{r}\sigma_i^2 \cancelto{1}{\sum\limits_{m}u_{im}^2} \cancelto{1}{\sum\limits_{n}v_{in}^2} + 2\sum\limits_{\substack{j=k+1\\j\neq i}}^{r} \sigma_i\sigma_j\cancelto{0}{\sum\limits_{m}u_{im}u_{jm}}\cancelto{0}{\sum\limits_{n}v_{in}v_{jn}} &\\ 
         &= \sum\limits_{i=k+1}^{r}\sigma_i^2 &
 \end{flalign*}
+
 Therefore, we prove that\\
 \textbf{ Sum of square error of the approximation = Sum of omitted eigenvalues}.
 
@@ -237,7 +237,7 @@ where $q$ = 0 or 1; $j$ = 0, 1, 2, \dots and $W_0(t) = \begin{cases}
     \end{cases}$\\
 \begin{flushleft}
 Based on Walsh function, Walsh Transfrom of $N\times N$ image is defined as follow.\\
-Let $W(k,i) \equiv H_{k}\left(\frac{i}{N}\right)$ where $k,i$ = 0, 1, 2, \ldots, $N$-1 \\
+Let $W(k,i) \equiv W_{k}\left(\frac{i}{N}\right)$ where $k,i$ = 0, 1, 2, \ldots, $N$-1 \\
 We obtain the Walsh Transfrom matrix:
 \begin{equation*}
  \tilde{W} \equiv\frac{1}{\sqrt{N}}W, \quad W \equiv(W (k,i))_{0\leqslant k,i \leqslant N-1}
@@ -354,17 +354,17 @@ sample images of different size of upper left corner of Walsh coefficients here.
 The 2D \textbf{discrete Fourier Transform (DFT)} of a $M\times N$ image $g = (g(k,l)_{k,l})$ 
 where $k$ = 0,1,\ldots, $M$-1 and $l$ = 0,1,\ldots, $N$-1, is defined as 
 \begin{equation*}
-    \tilde{g}(m,n) = \frac{1}{MN}\sum_{k=0}^{M-1}\sum_{l=0}^{N-1}g(k,l)e^{-2\pi j(\frac{km}{M}+\frac{ln}{N})}
+    \hat{g}(m,n) = \frac{1}{MN}\sum_{k=0}^{M-1}\sum_{l=0}^{N-1}g(k,l)e^{-2\pi j(\frac{km}{M}+\frac{ln}{N})}
 \end{equation*}
 And the inverse discrete Fourier Transform is given by
 \begin{equation*}
-    g(p,q) = \sum_{m=0}^{M-1}\sum_{n=0}^{N-1}\tilde{g}(m,n)e^{2\pi j(\frac{pm}{M}+\frac{qn}{N})}
+    g(p,q) = \sum_{m=0}^{M-1}\sum_{n=0}^{N-1}\hat{g}(m,n)e^{2\pi j(\frac{pm}{M}+\frac{qn}{N})}
 \end{equation*}
 Define matrix $U=(U_{x\alpha})_{0\leqslant x,\alpha \leqslant N-1}\in M_{N\times N}(\mathbb{C})$
 by $U_{x\alpha}=\frac{1}{N} e^{-2\pi j\frac{x\alpha}{N}}$, where $0\leqslant x,\alpha \leqslant N-1$\\
 Then U is symmetric and 
 \begin{equation*}
-    \tilde{g} = UgU
+    \hat{g} = UgU
 \end{equation*}
 Besides, we can prove that rows of $U$ are mutually orthogonal but not orthonormal.\\
 Then we conclude that $UU^{\ast}=\frac{1}{N}I$
@@ -386,8 +386,8 @@ Seperate it into odd and even parts, we have
                 \frac{1}{2} \Big\{\hat{f}_\textbf{even}(u) + \hat{f}_\textbf{odd}(u)\omega_{2M}^u\Big\} &\text{for $u < M$}\\
                 \frac{1}{2} \Big\{\hat{f}_\textbf{even}(u) - \hat{f}_\textbf{odd}(u)\omega_{2M}^u\Big\} &\text{for $u \geq M$}
                \end{cases}\\
-    \hat{f}_\textbf{even}(u) &= \frac{1}{M} \sum_{y=0}^{M-1} f(2y) \omega_{M}^{uy} \text{DFT of even part of $f$}\\
-    \hat{f}_\textbf{odd}(u) &= \frac{1}{M} \sum_{y=0}^{M-1} f(2y+1) \omega_{M}^{uy} \text{DFT of odd part of $f$}
+    \hat{f}_\textbf{even}(u) &= \frac{1}{M} \sum_{y=0}^{M-1} f(2y) \omega_{M}^{uy} \text{$\quad$ DFT of even part of $f$}\\
+    \hat{f}_\textbf{odd}(u) &= \frac{1}{M} \sum_{y=0}^{M-1} f(2y+1) \omega_{M}^{uy} \text{$\quad$ DFT of odd part of $f$}
 \end{flalign*}
 Therefore, \textbf{Fast Fourier Transform (FFT) Algorithm} can be stated as:
 
@@ -509,22 +509,15 @@ with $0 \leq m \leq M-1$, $0 \leq n \leq N-1$.
 \end{flushleft}
 \pagebreak
 
-% Part3: Result
-    % Error, computation cost 
-    % Computational cost of DFT has been explained before. U can skip this here
-    % (Ppt comparison chart???)
-    % 說一說 為什麼？ 哪種圖片更適合哪種方法？ 方法的特點
-    % dont ask me why, dont wanna open the pages again
-
 \section*{3.\quad Conclusion}
-In this part, we would compare the compression results and analyze the applicability of four different image decomposition techniques: 
+In this part, we would compare the compression results of four different image decomposition techniques: 
 SVD, Haar Transform, Walsh Transform and DFT.
 \begin{flushleft}
-    The following form shows the mean square error (MSE) under image compression of an image of a flower. \\
+    The following table shows the mean square error (MSE) under image compression of an image of a balloon. \\
     In each column with number $n$, 
     SVD technique refers to MSE under rank-n approximation; 
     Haar transfrom and Walsh transform refers to MSE of image construction by keeping $n$-size upper left corner coefficients;
-    And DFT technique refers to MSE by reconstruction of $n\times n$ eigenimages.
+    and DFT technique refers to MSE by reconstruction of $n\times n$ eigenimages.
 
     \begin{table}[H]
         \centering
