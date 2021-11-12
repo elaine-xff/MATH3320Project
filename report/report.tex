@@ -1,6 +1,7 @@
 \documentclass[12pt]{article}
 \usepackage{amsmath, amsfonts, amssymb}
 \usepackage{mathtools}
+\usepackage{mathrsfs}
 \usepackage{datetime}
 \usepackage{interval}
 \usepackage{subfig}
@@ -298,11 +299,11 @@ $3 \times 3$, $4 \times 4$, \dots respectively.
     \centering
     \subfloat[Haar to 10]{
         \label{ref_label1}
-        \includegraphics[width=0.5\textwidth]{balloon_HaarTo_10.png}
+        \includegraphics[width=0.4\textwidth]{balloon_HaarTo_10.png}
         }
     \subfloat[Original]{
         \label{ref_label2}
-        \includegraphics[width=0.5\textwidth]{balloon_orig.png}
+        \includegraphics[width=0.4\textwidth]{balloon_orig.png}
         }
     \caption{Haar Compression VS Original Image}
     \label{ref_label_overall}
@@ -373,6 +374,41 @@ Then we conclude that $UU^{\ast}=\frac{1}{N}I$
 Since DFT is seperable, for a 2D image, to compute its DFT is to compute two 1D DFT. 
 Hence, it is sufficient to consider how to compute 1D DFT fast.
 
+Let $\omega_N = e^{-\frac{2 \pi}{N}j}$ and assume $N = 2^n = 2M$.\\
+Then the 1D DFT is: $\hat{f}(u) = \frac{1}{N} \sum_{x=0}^{N-1} f(x)\omega_{N}^{ux} = \frac{1}{2M} \sum_{x=0}^{2M-1} f(x)\omega_{2M}^{ux}$.\\
+Seperate it into odd and even parts, we have 
+\begin{flalign*}
+    \hat{f}(u) &= \frac{1}{2} \Bigg\{ \frac{1}{M} \sum_{y=0}^{M-1} f(2y)\omega_{2M}^{u(2y)} +  \frac{1}{M} \sum_{y=0}^{M-1} f(2y+1)\omega_{2M}^{u(2y+1)}\Bigg\}\\
+               &= \frac{1}{2} \Bigg\{ \frac{1}{M} \sum_{y=0}^{M-1} f(2y)\omega_{M}^{uy} +  \frac{1}{M} \sum_{y=0}^{M-1} f(2y+1)\omega_{M}^{uy}\omega_{2M}^{u}\Bigg\}\\
+               &= \begin{cases}
+                \frac{1}{2} \Big\{\hat{f}_\textbf{even}(u) + \hat{f}_\textbf{odd}(u)\omega_{2M}^u\Big\} &\text{for $u < M$}\\
+                \frac{1}{2} \Big\{\hat{f}_\textbf{even}(u) - \hat{f}_\textbf{odd}(u)\omega_{2M}^u\Big\} &\text{for $u \geq M$}
+               \end{cases}\\
+    \hat{f}_\textbf{even}(u) &= \frac{1}{M} \sum_{y=0}^{M-1} f(2y) \omega_{M}^{uy} \text{DFT of even part of $f$}\\
+    \hat{f}_\textbf{odd}(u) &= \frac{1}{M} \sum_{y=0}^{M-1} f(2y+1) \omega_{M}^{uy} \text{DFT of odd part of $f$}
+\end{flalign*}
+Therefore, \textbf{Fast Fourier Transform (FFT) Algorithm} can be stated as:
+
+Let $f \in \mathbb{R}^N$ where $N = 2^n = 2M$.\\
+\textbf{Step 1}: Split $f$ into 
+\begin{flalign*}
+    f_\textbf{even} &= [ f(0), f(2), \dots, f(2M-2) ]^T\\
+    f_\textbf{odd}  &= [ f(1), f(3), \dots, f(2M-1) ]^T.
+\end{flalign*}
+\textbf{Step 2}: Compute $\hat{f}_\textbf{even} = F_M f_\textbf{even}$ and $\hat{f}_\textbf{odd} = F_M f_\textbf{odd}$, where $F_M = (\omega_M^{ux})_{0 \leq u, x\leq M-1}$ is an $M \times M$ matrix.\\
+\textbf{Step 3}: Compute $\hat{f}$ using the following formula:
+
+For $u = $ 0, 1, 2, \dots, $M-1$.
+\begin{flalign*}
+    \hat{f}(u) &= \frac{1}{2} [\hat{f}_\textbf{even}(u) + \hat{f}_\textbf{odd}(u)\omega_{2M}^u]\\
+    \hat{f}(u+M) &= \frac{1}{2} [\hat{f}_\textbf{even}(u) - \hat{f}_\textbf{odd}(u)\omega_{2M}^u].
+\end{flalign*}
+\begin{flushleft}
+Let $C_m$ be the \textbf{computational cost} of $F_m \mathbf{x}$. Then $C_1 = 1$.\\
+Obviously, $C_N = 2C_M + 3M$ (2 matrix multiplication, $M$ multiplication, addition and subtraction)\\
+Hence, we can conclude that the computational cost $C_N$ is bounded by $KN \log_2 N$. We denote it by $\mathcal{O}(N \log_2 N)$.
+\end{flushleft}
+\pagebreak
 
 Code: 
 \end{flushleft}
@@ -383,9 +419,12 @@ Code:
 \end{figure}
 
 \begin{flushleft}
-(b) Example
+(b) Application of FFT
 
-Code: 
+To compress an image, we can calculate corresponding discrete Fourier matrix and then calculate norm of each entry. Ignoring the relatively 
+small coefficients and do inverse DFT finally. 
+
+In the following code, we set $k$ as a parameter to dominate the percentage of coefficients to be kept.
 \end{flushleft}
 \begin{figure}[H]
     \centering
@@ -399,44 +438,78 @@ Results:
     \centering
     \subfloat[FFT up to 0.5\% coefficients]{
         \label{ref_label1}
-        \includegraphics[width=0.5\textwidth]{hibiscus_fft_0.005.png}
+        \includegraphics[width=0.4\textwidth]{hibiscus_fft_0.005.png}
         }
     \subfloat[FFT up to 5\% coefficients]{
         \label{ref_label2}
-        \includegraphics[width=0.5\textwidth]{hibiscus_fft_0.05.png}
+        \includegraphics[width=0.4\textwidth]{hibiscus_fft_0.05.png}
         }\\
+    \subfloat[FFT up to 10\% coefficients]{
+        \label{ref_label2}
+        \includegraphics[width=0.4\textwidth]{hibiscus_fft_0.1.png}
+        }
     \subfloat[Original]{
         \label{ref_label2}
-        \includegraphics[width=0.5\textwidth]{hibiscus_orig.png}
+        \includegraphics[width=0.4\textwidth]{hibiscus_orig.png}
         }
     \caption{FFT compression results for Hibiscus}
     \label{ref_label_overall}
 \end{figure}
-
+\begin{flushleft}
+From the 'Hibiscus' example, it is clear that the compression performace is already good enough when top 10\% coefficients are kept.
+The following 'platform' image is also compressed by the same logic.
+\end{flushleft}
 \begin{figure}[H]
     \centering
     \subfloat[FFT up to 0.5\% coefficients]{
         \label{ref_label1}
-        \includegraphics[width=0.5\textwidth]{platform_fft_0.005.png}
+        \includegraphics[width=0.35\textwidth]{platform_fft_0.005.png}
         }
     \subfloat[FFT up to 5\% coefficients]{
         \label{ref_label2}
-        \includegraphics[width=0.5\textwidth]{platform_fft_0.05.png}
+        \includegraphics[width=0.35\textwidth]{platform_fft_0.05.png}
+        }
+    \subfloat[FFT up to 10\% coefficients]{
+        \label{ref_label2}
+        \includegraphics[width=0.35\textwidth]{platform_fft_0.1.png}
         }\\
+    \subfloat[FFT up to 15\% coefficients]{
+        \label{ref_label2}
+        \includegraphics[width=0.35\textwidth]{platform_fft_0.15.png}
+        }
+    \subfloat[FFT up to 20\% coefficients]{
+        \label{ref_label2}
+        \includegraphics[width=0.35\textwidth]{platform_fft_0.2.png}
+        }
     \subfloat[Original]{
         \label{ref_label2}
-        \includegraphics[width=0.5\textwidth]{platform_orig.png}
+        \includegraphics[width=0.35\textwidth]{platform_orig.png}
         }
     \caption{FFT compression results for Platform}
     \label{ref_label_overall}
 \end{figure}
 \begin{flushleft}
 (c) Even Discrete Cosine Transform (EDCT)
-\end{flushleft}
 
+\textbf{Even Symmetric Cosine Transform (EDCT)} is derived from Discrete Fourier Transform and is applied to \textbf{JPEG compression}.
+
+By extending an $N \times N$ image $f$ to a $2M \times N$ image $\tilde{f}$, whose indices are taken from $[-M, M-1]$ and $[-N, N-1]$.\\
+After complicated calculation, we can get that the DFT of $\tilde{f}$:
+\begin{flalign*}
+    A_1 + A_2 + A_3 + A_4 &= \frac{1}{MN} \sum_{k=0}^{M-1} \sum_{l=0}^{N-1} f(k, l) cos\Bigl[\frac{m \pi}{M}\Biggl(k+\frac{1}{2}\Biggr)\Bigr] cos\Bigl[\frac{n \pi}{N}\Biggl(l+\frac{1}{2}\Biggr)\Bigr]\\
+    F(m, n) &= \frac{1}{4MN} (A_1 + A_2 + A_3 + A_4) f(k, l) e^{- \pi j\frac{m}{M}(k+\frac{1}{2}) - \pi j\frac{n}{N}(l+\frac{1}{2})}
+\end{flalign*}
+Then \textbf{EDCT} of $f$ is defined as:
+\begin{flalign*}
+    \hat{f}_{ec}(m, n) &= \frac{1}{MN} \sum_{k=0}^{M-1} \sum_{l=0}^{N-1} f(k, l) cos\Bigl[\frac{m \pi}{M}\Biggl(k+\frac{1}{2}\Biggr)\Bigr] cos\Bigl[\frac{n \pi}{N}\Biggl(l+\frac{1}{2}\Biggr)\Bigr]
+\end{flalign*}
+with $0 \leq m \leq M-1$, $0 \leq n \leq N-1$.
+\end{flushleft}
+\pagebreak
 
 % Part3: Result
-    % Error, computation cost
+    % Error, computation cost 
+    % Computational cost of DFT has been explained before. U can skip this here
     % (Ppt comparison chart???)
     % 說一說 為什麼？ 哪種圖片更適合哪種方法？ 方法的特點
     % dont ask me why, dont wanna open the pages again
