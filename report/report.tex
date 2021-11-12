@@ -366,13 +366,14 @@ Then U is symmetric and
 Besides, we can prove that rows of $U$ are mutually orthogonal but not orthonormal.\\
 Then we conclude that $UU^{\ast}=\frac{1}{N}I$
 
-% remaining part of DFT will all be done by xff --<3
-% U can start conclusion directly
-% 筆芯芯
 \subsubsection*{2.3.2\quad Application}
 (a) Fast Fourier Transform Algorithm (FFT)
 
 \begin{flushleft} 
+Since DFT is seperable, for a 2D image, to compute its DFT is to compute two 1D DFT. 
+Hence, it is sufficient to consider how to compute 1D DFT fast.
+
+
 Code: 
 \end{flushleft}
 \begin{figure}[H]
@@ -396,11 +397,11 @@ Results:
 \end{flushleft}
 \begin{figure}[H]
     \centering
-    \subfloat[Haar to 10]{
+    \subfloat[FFT up to 0.5\% coefficients]{
         \label{ref_label1}
         \includegraphics[width=0.5\textwidth]{hibiscus_fft_0.005.png}
         }
-    \subfloat[Original]{
+    \subfloat[FFT up to 5\% coefficients]{
         \label{ref_label2}
         \includegraphics[width=0.5\textwidth]{hibiscus_fft_0.05.png}
         }\\
@@ -414,11 +415,11 @@ Results:
 
 \begin{figure}[H]
     \centering
-    \subfloat[Haar to 10]{
+    \subfloat[FFT up to 0.5\% coefficients]{
         \label{ref_label1}
         \includegraphics[width=0.5\textwidth]{platform_fft_0.005.png}
         }
-    \subfloat[Original]{
+    \subfloat[FFT up to 5\% coefficients]{
         \label{ref_label2}
         \includegraphics[width=0.5\textwidth]{platform_fft_0.05.png}
         }\\

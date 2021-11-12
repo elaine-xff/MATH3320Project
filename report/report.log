@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.19)  12 NOV 2021 18:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.19)  12 NOV 2021 18:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -759,53 +759,53 @@ Package pdftex.def Info: balloon_walshTo7.png  used on input line 343.
 <fft_algo.png, id=105, 734.745pt x 738.76pt>
 File: fft_algo.png Graphic file (type png)
 <use fft_algo.png>
-Package pdftex.def Info: fft_algo.png  used on input line 380.
+Package pdftex.def Info: fft_algo.png  used on input line 381.
 (pdftex.def)             Requested size: 466.0554pt x 468.61139pt.
 <fft_compression.png, id=106, 852.18375pt x 351.3125pt>
 File: fft_compression.png Graphic file (type png)
 <use fft_compression.png>
-Package pdftex.def Info: fft_compression.png  used on input line 391.
+Package pdftex.def Info: fft_compression.png  used on input line 392.
 (pdftex.def)             Requested size: 466.0554pt x 192.13426pt.
  [11 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/fft_algo.png>]
 <hibiscus_fft_0.005.png, id=111, 433.62pt x 289.08pt>
 File: hibiscus_fft_0.005.png Graphic file (type png)
 <use hibiscus_fft_0.005.png>
-Package pdftex.def Info: hibiscus_fft_0.005.png  used on input line 402.
+Package pdftex.def Info: hibiscus_fft_0.005.png  used on input line 403.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 <hibiscus_fft_0.05.png, id=112, 433.62pt x 289.08pt>
 File: hibiscus_fft_0.05.png Graphic file (type png)
 <use hibiscus_fft_0.05.png>
-Package pdftex.def Info: hibiscus_fft_0.05.png  used on input line 406.
+Package pdftex.def Info: hibiscus_fft_0.05.png  used on input line 407.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 402--406
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 403--407
  [][][] 
  []
 
 <hibiscus_orig.png, id=113, 433.62pt x 289.08pt>
 File: hibiscus_orig.png Graphic file (type png)
 <use hibiscus_orig.png>
-Package pdftex.def Info: hibiscus_orig.png  used on input line 410.
+Package pdftex.def Info: hibiscus_orig.png  used on input line 411.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 <platform_fft_0.005.png, id=114, 433.62pt x 289.08pt>
 File: platform_fft_0.005.png Graphic file (type png)
 <use platform_fft_0.005.png>
-Package pdftex.def Info: platform_fft_0.005.png  used on input line 420.
+Package pdftex.def Info: platform_fft_0.005.png  used on input line 421.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 <platform_fft_0.05.png, id=115, 433.62pt x 289.08pt>
 File: platform_fft_0.05.png Graphic file (type png)
 <use platform_fft_0.05.png>
-Package pdftex.def Info: platform_fft_0.05.png  used on input line 424.
+Package pdftex.def Info: platform_fft_0.05.png  used on input line 425.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 420--424
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 421--425
  [][][] 
  []
 
 <platform_orig.png, id=116, 433.62pt x 289.08pt>
 File: platform_orig.png Graphic file (type png)
 <use platform_orig.png>
-Package pdftex.def Info: platform_orig.png  used on input line 428.
+Package pdftex.def Info: platform_orig.png  used on input line 429.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 [12 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/fft_compression.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/hibiscus_fft_0.005.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/hibiscus_fft_0.05.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/hibiscus_orig.png>] [13 </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/platform_fft_0.005.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/platform_fft_0.05.png> </Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/platform_orig.png>] (/Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.aux)
 
@@ -821,7 +821,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  85i,18n,133p,1073b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf (13 pages, 1744345 bytes).
+Output written on /Users/elainexfff_/Documents/MATLAB/MATH/MATH3320Project/report/report.pdf (13 pages, 1745816 bytes).
 PDF statistics:
  182 PDF objects out of 1000 (max. 8388607)
  80 compressed objects within 1 object stream
