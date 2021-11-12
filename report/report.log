@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.21)  12 NOV 2021 22:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.21)  12 NOV 2021 22:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -258,262 +258,58 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@dimlist=\toks30
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+
+/Users/zhangyifan/Documents/MATH3320Project/report/report.tex:12: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \documentclass[UTF8]{
+                          ctexart}
+The document may only declare one class.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen176
+\lightrulewidth=\dimen177
+\cmidrulewidth=\dimen178
+\belowrulesep=\dimen179
+\belowbottomsep=\dimen180
+\aboverulesep=\dimen181
+\abovetopsep=\dimen182
+\cmidrulesep=\dimen183
+\cmidrulekern=\dimen184
+\defaultaddspace=\dimen185
+\@cmidla=\count309
+\@cmidlb=\count310
+\@aboverulesep=\dimen186
+\@belowrulesep=\dimen187
+\@thisruleclass=\count311
+\@lastruleclass=\count312
+\@thisrulewidth=\dimen188
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count309
+\l__color_backend_stack_int=\count313
 \l__pdf_internal_box=\box52
-) (/Users/zhangyifan/Documents/MATH3320Project/report/report.aux
-
-LaTeX Warning: Label `ref_label1' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label1' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label_overall' multiply defined.
-
-
-LaTeX Warning: Label `ref_label1' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label1' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label_overall' multiply defined.
-
-
-LaTeX Warning: Label `ref_label1' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label1' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label_overall' multiply defined.
-
-
-LaTeX Warning: Label `ref_label1' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label1' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label_overall' multiply defined.
-
-
-LaTeX Warning: Label `ref_label1' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label1' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label_overall' multiply defined.
-
-
-LaTeX Warning: Label `ref_label1' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label1' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label_overall' multiply defined.
-
-
-LaTeX Warning: Label `ref_label1' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label1' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label2' multiply defined.
-
-
-LaTeX Warning: Label `ref_label_overall' multiply defined.
-
-
-LaTeX Warning: Label `ref_label1' multiply defined.
-
-
-LaTeX Warning: Label `sub@ref_label1' multiply defined.
-
-
-LaTeX Warning: Label `ref_label_overall' multiply defined.
-
-)
+) (/Users/zhangyifan/Documents/MATH3320Project/report/report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
@@ -523,41 +319,20 @@ Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
  (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count310
-\scratchdimen=\dimen176
+\scratchcounter=\count314
+\scratchdimen=\dimen189
 \scratchbox=\box53
-\nofMPsegments=\count311
-\nofMParguments=\count312
+\nofMPsegments=\count315
+\nofMParguments=\count316
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count313
-\MPscratchDim=\dimen177
-\MPnumerator=\count314
-\makeMPintoPDFobject=\count315
+\MPscratchCnt=\count317
+\MPscratchDim=\dimen190
+\MPnumerator=\count318
+\makeMPintoPDFobject=\count319
 \everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
- (/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)) (/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
- (/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
@@ -595,66 +370,66 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 22.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 24.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (3.26385pt too wide) in paragraph at lines 57--68
+Overfull \hbox (3.26385pt too wide) in paragraph at lines 59--70
 []\OT1/cmr/m/n/12 ,
  []
 
 <library.png, id=10, 359.3425pt x 122.4575pt>
 File: library.png Graphic file (type png)
 <use library.png>
-Package pdftex.def Info: library.png  used on input line 83.
+Package pdftex.def Info: library.png  used on input line 85.
 (pdftex.def)             Requested size: 233.0277pt x 79.4133pt.
 <rgb2gray.png, id=12, 538.01pt x 125.46875pt>
 File: rgb2gray.png Graphic file (type png)
 <use rgb2gray.png>
-Package pdftex.def Info: rgb2gray.png  used on input line 87.
+Package pdftex.def Info: rgb2gray.png  used on input line 89.
 (pdftex.def)             Requested size: 233.0277pt x 54.34488pt.
 
-Overfull \hbox (19.58311pt too wide) in paragraph at lines 83--87
+Overfull \hbox (19.58311pt too wide) in paragraph at lines 85--89
  [][][] 
  []
 
 <dora_10.png, id=13, 433.62pt x 289.08pt>
 File: dora_10.png Graphic file (type png)
 <use dora_10.png>
-Package pdftex.def Info: dora_10.png  used on input line 98.
+Package pdftex.def Info: dora_10.png  used on input line 100.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 <dora_40.png, id=14, 433.62pt x 289.08pt>
 File: dora_40.png Graphic file (type png)
 <use dora_40.png>
-Package pdftex.def Info: dora_40.png  used on input line 102.
+Package pdftex.def Info: dora_40.png  used on input line 104.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 98--102
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 100--104
  [][][] 
  []
 
 <dora_100.png, id=15, 433.62pt x 289.08pt>
 File: dora_100.png Graphic file (type png)
 <use dora_100.png>
-Package pdftex.def Info: dora_100.png  used on input line 106.
+Package pdftex.def Info: dora_100.png  used on input line 108.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 <dora_orig.png, id=16, 433.62pt x 289.08pt>
 File: dora_orig.png Graphic file (type png)
 <use dora_orig.png>
-Package pdftex.def Info: dora_orig.png  used on input line 110.
+Package pdftex.def Info: dora_orig.png  used on input line 112.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 106--111
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 108--113
  [][][] 
  []
 
@@ -662,54 +437,54 @@ Overfull \hbox (15.66649pt too wide) in paragraph at lines 106--111
 <SVD_code.png, id=36, 729.72626pt x 320.19624pt>
 File: SVD_code.png Graphic file (type png)
 <use SVD_code.png>
-Package pdftex.def Info: SVD_code.png  used on input line 124.
+Package pdftex.def Info: SVD_code.png  used on input line 126.
 (pdftex.def)             Requested size: 466.0554pt x 204.49982pt.
 <dora_auto_{k}.png, id=37, 433.62pt x 289.08pt>
 File: dora_auto_{k}.png Graphic file (type png)
 <use dora_auto_{k}.png>
-Package pdftex.def Info: dora_auto_{k}.png  used on input line 135.
+Package pdftex.def Info: dora_auto_{k}.png  used on input line 137.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 File: dora_orig.png Graphic file (type png)
 <use dora_orig.png>
-Package pdftex.def Info: dora_orig.png  used on input line 139.
+Package pdftex.def Info: dora_orig.png  used on input line 141.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 135--140
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 137--142
  [][][] 
  []
 
 <lenna_20.png, id=38, 433.62pt x 289.08pt>
 File: lenna_20.png Graphic file (type png)
 <use lenna_20.png>
-Package pdftex.def Info: lenna_20.png  used on input line 152.
+Package pdftex.def Info: lenna_20.png  used on input line 154.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 <lenna_50.png, id=39, 433.62pt x 289.08pt>
 File: lenna_50.png Graphic file (type png)
 <use lenna_50.png>
-Package pdftex.def Info: lenna_50.png  used on input line 156.
+Package pdftex.def Info: lenna_50.png  used on input line 158.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 152--156
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 154--158
  [][][] 
  []
 
 <lenna_auto_{k}.png, id=40, 433.62pt x 289.08pt>
 File: lenna_auto_{k}.png Graphic file (type png)
 <use lenna_auto_{k}.png>
-Package pdftex.def Info: lenna_auto_{k}.png  used on input line 160.
+Package pdftex.def Info: lenna_auto_{k}.png  used on input line 162.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 <lenna_orig.png, id=41, 433.62pt x 289.08pt>
 File: lenna_orig.png Graphic file (type png)
 <use lenna_orig.png>
-Package pdftex.def Info: lenna_orig.png  used on input line 164.
+Package pdftex.def Info: lenna_orig.png  used on input line 166.
 (pdftex.def)             Requested size: 233.0277pt x 155.351pt.
 
-Overfull \hbox (15.66649pt too wide) in paragraph at lines 160--165
+Overfull \hbox (15.66649pt too wide) in paragraph at lines 162--167
  [][][] 
  []
 
 [4 </Users/zhangyifan/Documents/MATH3320Project/report/SVD_code.png> </Users/zhangyifan/Documents/MATH3320Project/report/dora_auto_{k}.png>] [5 </Users/zhangyifan/Documents/MATH3320Project/report/lenna_20.png> </Users/zhangyifan/Documents/MATH3320Project/report/lenna_50.png> </Users/zhangyifan/Documents/MATH3320Project/report/lenna_auto_{k}.png> </Users/zhangyifan/Documents/MATH3320Project/report/lenna_orig.png>] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 231--236
+Underfull \hbox (badness 10000) in paragraph at lines 233--238
 
  []
 
@@ -717,171 +492,166 @@ Underfull \hbox (badness 10000) in paragraph at lines 231--236
 <haar_code.png, id=66, 818.05624pt x 467.7475pt>
 File: haar_code.png Graphic file (type png)
 <use haar_code.png>
-Package pdftex.def Info: haar_code.png  used on input line 259.
+Package pdftex.def Info: haar_code.png  used on input line 261.
 (pdftex.def)             Requested size: 466.0554pt x 266.48323pt.
 <balloon_HaarTo_2.png, id=67, 433.62pt x 289.08pt>
 File: balloon_HaarTo_2.png Graphic file (type png)
 <use balloon_HaarTo_2.png>
-Package pdftex.def Info: balloon_HaarTo_2.png  used on input line 274.
+Package pdftex.def Info: balloon_HaarTo_2.png  used on input line 276.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
 <balloon_HaarTo_3.png, id=68, 433.62pt x 289.08pt>
 File: balloon_HaarTo_3.png Graphic file (type png)
 <use balloon_HaarTo_3.png>
-Package pdftex.def Info: balloon_HaarTo_3.png  used on input line 278.
+Package pdftex.def Info: balloon_HaarTo_3.png  used on input line 280.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
 <balloon_HaarTo_4.png, id=69, 433.62pt x 289.08pt>
 File: balloon_HaarTo_4.png Graphic file (type png)
 <use balloon_HaarTo_4.png>
-Package pdftex.def Info: balloon_HaarTo_4.png  used on input line 282.
+Package pdftex.def Info: balloon_HaarTo_4.png  used on input line 284.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
 <balloon_HaarTo_5.png, id=70, 433.62pt x 289.08pt>
 File: balloon_HaarTo_5.png Graphic file (type png)
 <use balloon_HaarTo_5.png>
-Package pdftex.def Info: balloon_HaarTo_5.png  used on input line 286.
+Package pdftex.def Info: balloon_HaarTo_5.png  used on input line 288.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
 <balloon_HaarTo_6.png, id=71, 433.62pt x 289.08pt>
 File: balloon_HaarTo_6.png Graphic file (type png)
 <use balloon_HaarTo_6.png>
-Package pdftex.def Info: balloon_HaarTo_6.png  used on input line 290.
+Package pdftex.def Info: balloon_HaarTo_6.png  used on input line 292.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
 <balloon_HaarTo_7.png, id=72, 433.62pt x 289.08pt>
 File: balloon_HaarTo_7.png Graphic file (type png)
 <use balloon_HaarTo_7.png>
-Package pdftex.def Info: balloon_HaarTo_7.png  used on input line 294.
+Package pdftex.def Info: balloon_HaarTo_7.png  used on input line 296.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
 <balloon_HaarTo_10.png, id=73, 433.62pt x 289.08pt>
 File: balloon_HaarTo_10.png Graphic file (type png)
 <use balloon_HaarTo_10.png>
-Package pdftex.def Info: balloon_HaarTo_10.png  used on input line 303.
+Package pdftex.def Info: balloon_HaarTo_10.png  used on input line 305.
 (pdftex.def)             Requested size: 186.41931pt x 124.2799pt.
 <balloon_orig.png, id=74, 433.62pt x 289.08pt>
 File: balloon_orig.png Graphic file (type png)
 <use balloon_orig.png>
-Package pdftex.def Info: balloon_orig.png  used on input line 307.
+Package pdftex.def Info: balloon_orig.png  used on input line 309.
 (pdftex.def)             Requested size: 186.41931pt x 124.2799pt.
  [8 </Users/zhangyifan/Documents/MATH3320Project/report/haar_code.png>]
 <balloon_walshTo2.png, id=79, 433.62pt x 289.08pt>
 File: balloon_walshTo2.png Graphic file (type png)
 <use balloon_walshTo2.png>
-Package pdftex.def Info: balloon_walshTo2.png  used on input line 324.
+Package pdftex.def Info: balloon_walshTo2.png  used on input line 326.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
 <balloon_walshTo3.png, id=80, 433.62pt x 289.08pt>
 File: balloon_walshTo3.png Graphic file (type png)
 <use balloon_walshTo3.png>
-Package pdftex.def Info: balloon_walshTo3.png  used on input line 328.
+Package pdftex.def Info: balloon_walshTo3.png  used on input line 330.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
 <balloon_walshTo4.png, id=81, 433.62pt x 289.08pt>
 File: balloon_walshTo4.png Graphic file (type png)
 <use balloon_walshTo4.png>
-Package pdftex.def Info: balloon_walshTo4.png  used on input line 332.
+Package pdftex.def Info: balloon_walshTo4.png  used on input line 334.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
 <balloon_walshTo5.png, id=82, 433.62pt x 289.08pt>
 File: balloon_walshTo5.png Graphic file (type png)
 <use balloon_walshTo5.png>
-Package pdftex.def Info: balloon_walshTo5.png  used on input line 336.
+Package pdftex.def Info: balloon_walshTo5.png  used on input line 338.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
 <balloon_walshTo6.png, id=83, 433.62pt x 289.08pt>
 File: balloon_walshTo6.png Graphic file (type png)
 <use balloon_walshTo6.png>
-Package pdftex.def Info: balloon_walshTo6.png  used on input line 340.
+Package pdftex.def Info: balloon_walshTo6.png  used on input line 342.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
 <balloon_walshTo7.png, id=84, 433.62pt x 289.08pt>
 File: balloon_walshTo7.png Graphic file (type png)
 <use balloon_walshTo7.png>
-Package pdftex.def Info: balloon_walshTo7.png  used on input line 344.
+Package pdftex.def Info: balloon_walshTo7.png  used on input line 346.
 (pdftex.def)             Requested size: 139.81804pt x 93.21324pt.
  [9 </Users/zhangyifan/Documents/MATH3320Project/report/balloon_HaarTo_2.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_HaarTo_3.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_HaarTo_4.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_HaarTo_5.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_HaarTo_6.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_HaarTo_7.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_HaarTo_10.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_orig.png>] [10 </Users/zhangyifan/Documents/MATH3320Project/report/balloon_walshTo2.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_walshTo3.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_walshTo4.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_walshTo5.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_walshTo6.png> </Users/zhangyifan/Documents/MATH3320Project/report/balloon_walshTo7.png>] [11]
 <fft_algo.png, id=109, 734.745pt x 738.76pt>
 File: fft_algo.png Graphic file (type png)
 <use fft_algo.png>
-Package pdftex.def Info: fft_algo.png  used on input line 417.
+Package pdftex.def Info: fft_algo.png  used on input line 419.
 (pdftex.def)             Requested size: 466.0554pt x 468.61139pt.
 <fft_compression.png, id=110, 852.18375pt x 351.3125pt>
 File: fft_compression.png Graphic file (type png)
 <use fft_compression.png>
-Package pdftex.def Info: fft_compression.png  used on input line 431.
+Package pdftex.def Info: fft_compression.png  used on input line 433.
 (pdftex.def)             Requested size: 466.0554pt x 192.13426pt.
  [12 </Users/zhangyifan/Documents/MATH3320Project/report/fft_algo.png>]
 <hibiscus_fft_0.005.png, id=115, 433.62pt x 289.08pt>
 File: hibiscus_fft_0.005.png Graphic file (type png)
 <use hibiscus_fft_0.005.png>
-Package pdftex.def Info: hibiscus_fft_0.005.png  used on input line 442.
+Package pdftex.def Info: hibiscus_fft_0.005.png  used on input line 444.
 (pdftex.def)             Requested size: 186.41931pt x 124.2799pt.
 <hibiscus_fft_0.05.png, id=116, 433.62pt x 289.08pt>
 File: hibiscus_fft_0.05.png Graphic file (type png)
 <use hibiscus_fft_0.05.png>
-Package pdftex.def Info: hibiscus_fft_0.05.png  used on input line 446.
+Package pdftex.def Info: hibiscus_fft_0.05.png  used on input line 448.
 (pdftex.def)             Requested size: 186.41931pt x 124.2799pt.
 <hibiscus_fft_0.1.png, id=117, 433.62pt x 289.08pt>
 File: hibiscus_fft_0.1.png Graphic file (type png)
 <use hibiscus_fft_0.1.png>
-Package pdftex.def Info: hibiscus_fft_0.1.png  used on input line 450.
+Package pdftex.def Info: hibiscus_fft_0.1.png  used on input line 452.
 (pdftex.def)             Requested size: 186.41931pt x 124.2799pt.
 <hibiscus_orig.png, id=118, 433.62pt x 289.08pt>
 File: hibiscus_orig.png Graphic file (type png)
 <use hibiscus_orig.png>
-Package pdftex.def Info: hibiscus_orig.png  used on input line 454.
+Package pdftex.def Info: hibiscus_orig.png  used on input line 456.
 (pdftex.def)             Requested size: 186.41931pt x 124.2799pt.
 <platform_fft_0.005.png, id=119, 433.62pt x 289.08pt>
 File: platform_fft_0.005.png Graphic file (type png)
 <use platform_fft_0.005.png>
-Package pdftex.def Info: platform_fft_0.005.png  used on input line 467.
+Package pdftex.def Info: platform_fft_0.005.png  used on input line 469.
 (pdftex.def)             Requested size: 163.12222pt x 108.74878pt.
 <platform_fft_0.05.png, id=120, 433.62pt x 289.08pt>
 File: platform_fft_0.05.png Graphic file (type png)
 <use platform_fft_0.05.png>
-Package pdftex.def Info: platform_fft_0.05.png  used on input line 471.
+Package pdftex.def Info: platform_fft_0.05.png  used on input line 473.
 (pdftex.def)             Requested size: 163.12222pt x 108.74878pt.
 <platform_fft_0.1.png, id=121, 433.62pt x 289.08pt>
 File: platform_fft_0.1.png Graphic file (type png)
 <use platform_fft_0.1.png>
-Package pdftex.def Info: platform_fft_0.1.png  used on input line 475.
+Package pdftex.def Info: platform_fft_0.1.png  used on input line 477.
 (pdftex.def)             Requested size: 163.12222pt x 108.74878pt.
 
-Overfull \hbox (46.81102pt too wide) in paragraph at lines 467--475
+Overfull \hbox (46.81102pt too wide) in paragraph at lines 469--477
  [][][][] 
  []
 
 <platform_fft_0.15.png, id=122, 433.62pt x 289.08pt>
 File: platform_fft_0.15.png Graphic file (type png)
 <use platform_fft_0.15.png>
-Package pdftex.def Info: platform_fft_0.15.png  used on input line 479.
+Package pdftex.def Info: platform_fft_0.15.png  used on input line 481.
 (pdftex.def)             Requested size: 163.12222pt x 108.74878pt.
 <platform_fft_0.2.png, id=123, 433.62pt x 289.08pt>
 File: platform_fft_0.2.png Graphic file (type png)
 <use platform_fft_0.2.png>
-Package pdftex.def Info: platform_fft_0.2.png  used on input line 483.
+Package pdftex.def Info: platform_fft_0.2.png  used on input line 485.
 (pdftex.def)             Requested size: 163.12222pt x 108.74878pt.
 <platform_orig.png, id=124, 433.62pt x 289.08pt>
 File: platform_orig.png Graphic file (type png)
 <use platform_orig.png>
-Package pdftex.def Info: platform_orig.png  used on input line 487.
+Package pdftex.def Info: platform_orig.png  used on input line 489.
 (pdftex.def)             Requested size: 163.12222pt x 108.74878pt.
 
-Overfull \hbox (46.81102pt too wide) in paragraph at lines 479--488
+Overfull \hbox (46.81102pt too wide) in paragraph at lines 481--490
  [][][][] 
  []
 
-[13 </Users/zhangyifan/Documents/MATH3320Project/report/fft_compression.png> </Users/zhangyifan/Documents/MATH3320Project/report/hibiscus_fft_0.005.png> </Users/zhangyifan/Documents/MATH3320Project/report/hibiscus_fft_0.05.png> </Users/zhangyifan/Documents/MATH3320Project/report/hibiscus_fft_0.1.png> </Users/zhangyifan/Documents/MATH3320Project/report/hibiscus_orig.png>] [14 </Users/zhangyifan/Documents/MATH3320Project/report/platform_fft_0.005.png> </Users/zhangyifan/Documents/MATH3320Project/report/platform_fft_0.05.png> </Users/zhangyifan/Documents/MATH3320Project/report/platform_fft_0.1.png> </Users/zhangyifan/Documents/MATH3320Project/report/platform_fft_0.15.png> </Users/zhangyifan/Documents/MATH3320Project/report/platform_fft_0.2.png> </Users/zhangyifan/Documents/MATH3320Project/report/platform_orig.png>]
-File: balloon_HaarTo_10.png Graphic file (type png)
-<use balloon_HaarTo_10.png>
-Package pdftex.def Info: balloon_HaarTo_10.png  used on input line 531.
-(pdftex.def)             Requested size: 186.41931pt x 124.2799pt.
- [15] (/Users/zhangyifan/Documents/MATH3320Project/report/report.aux)
+[13 </Users/zhangyifan/Documents/MATH3320Project/report/fft_compression.png> </Users/zhangyifan/Documents/MATH3320Project/report/hibiscus_fft_0.005.png> </Users/zhangyifan/Documents/MATH3320Project/report/hibiscus_fft_0.05.png> </Users/zhangyifan/Documents/MATH3320Project/report/hibiscus_fft_0.1.png> </Users/zhangyifan/Documents/MATH3320Project/report/hibiscus_orig.png>] [14 </Users/zhangyifan/Documents/MATH3320Project/report/platform_fft_0.005.png> </Users/zhangyifan/Documents/MATH3320Project/report/platform_fft_0.05.png> </Users/zhangyifan/Documents/MATH3320Project/report/platform_fft_0.1.png> </Users/zhangyifan/Documents/MATH3320Project/report/platform_fft_0.15.png> </Users/zhangyifan/Documents/MATH3320Project/report/platform_fft_0.2.png> </Users/zhangyifan/Documents/MATH3320Project/report/platform_orig.png>] [15] (/Users/zhangyifan/Documents/MATH3320Project/report/report.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 7343 strings out of 478994
- 121130 string characters out of 5858184
- 440008 words of memory out of 5000000
- 24656 multiletter control sequences out of 15000+600000
+ 6969 strings out of 478994
+ 114211 string characters out of 5858184
+ 431791 words of memory out of 5000000
+ 24306 multiletter control sequences out of 15000+600000
  414960 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,19n,133p,1060b,510s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 85i,19n,133p,1060b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/zhangyifan/Documents/MATH3320Project/report/report.pdf (15 pages, 1985702 bytes).
+Output written on /Users/zhangyifan/Documents/MATH3320Project/report/report.pdf (15 pages, 1985828 bytes).
 PDF statistics:
  200 PDF objects out of 1000 (max. 8388607)
  87 compressed objects within 1 object stream

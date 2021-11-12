@@ -9,6 +9,8 @@
 \usepackage{float}
 \usepackage{geometry}
 \usepackage[makeroom]{cancel}
+\documentclass[UTF8]{ctexart}
+\usepackage{booktabs}
 
 \geometry{a4paper,scale=0.78}
 \DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
@@ -522,16 +524,21 @@ SVD, Haar Transform, Walsh Transform and DFT.
     In each column with number $n$, 
     SVD technique refers to MSE under rank-n approximation; 
     Haar transfrom and Walsh transform refers to MSE of image construction by keeping $n$-size upper left corner coefficients;
-    And DFT technique refers to MSE by reconstruction of $n\times n$\% eigenimages.\\
-    \begin{figure}[H]
+    And DFT technique refers to MSE by reconstruction of $n\times n$ eigenimages.
+
+    \begin{table}[H]
         \centering
-        \subfloat[Haar to 10]{
-            \label{ref_label1}
-            \includegraphics[width=0.4\textwidth]{balloon_HaarTo_10.png}
-            }
-        \caption{MSE under different compression techniques}
-        \label{ref_label_overall}
-    \end{figure}
+        \begin{tabular}{llllllllll}
+            \toprule
+            & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\
+            \midrule
+            SVD & 42681 & 4303 & 2279 & 904 & 220 &  &  &  &  \\
+            Haar & 42681 & 6960 & 6791 & 5468 & 4113 & 3528 & 3173 & 2549 &  \\
+            Walsh & 42681 & 6960 & 6788 & 5034 & 4251 & 3167 & 2315 &  &  \\
+            DFT & 42681 & 5827 & 3167 & 2483 & 2250 & 1967 & 1883 & 1806 & 1751 \\
+            \bottomrule
+        \end{tabular}
+    \end{table}
 
     Each compression techniques shows different performance at different sizes of component transforms. 
     From results it has been observed that SVD technique gives supervior performance among all with lowest MSE and rapid compression speed. 
